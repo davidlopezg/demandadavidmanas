@@ -1,0 +1,47 @@
+# OpenSpec Configuration — demandadavidmanas
+
+project: demandadavidmanas
+version: "1.0.0"
+created: "2026-07-14"
+
+execution:
+  mode: interactive   # pauses between phases, user approves
+  artifact_store: both # openspec + engram (when available)
+
+polyglot:
+  orchestration: typescript  # Node.js for MCP, APIs, n8n
+  analysis: python          # NLP, OCR, IA, semantic search
+
+mvp_scope:
+  phase1_agents:
+    - instructor           # Expediente constructor
+    - abogado-parte-actora # Demanda y ataque
+    - abogado-david        # Destruir demanda (defensa)
+    - juez                 # Evaluación neutral
+    - auditor-documental   # Revisión numérica
+  phase2_agents:
+    - inspector-tributario # Análisis fiscal
+    - psicologo-estrategico # Perfil estratégico
+
+system_rules:
+  - never_invent_facts: true
+  - always_cite_source: true
+  - distinguish_facts_hypotheses_opinions: true
+  - internal_debate_before_conclusion: true
+  - adversarial_drafting: true  # destruir demanda antes de emitir
+
+integrations:
+  notebooklm:
+    transport: http
+    server: desktop  # notebooklm-mcp corre en desktop con Chrome
+    tools:
+      - ask_question
+      - add_source
+      - list_notebooks
+      - generate_audio
+
+strict_tdd: false  # análisis jurídico, no código test-driven
+review_workload_threshold: 400  # chained PRs recomendadas si diff > 400
+
+preflight_completed: "2026-07-14"
+preflight_by: gentle-ai/sdd-preflight

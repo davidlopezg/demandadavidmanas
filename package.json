@@ -1,0 +1,45 @@
+{
+  "name": "sistema-agentes-juridicos",
+  "version": "1.0.0",
+  "description": "Sistema multi-agente jurídico con debate adversarial y citación obligatoria",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node scripts/run-pipeline.js",
+    "test": "node tests/run.js",
+    "verify": "node tests/citation-verification.js",
+    "lint": "eslint scripts tests",
+    "format": "prettier --write '**/*.ts' '**/*.md'",
+    "notebooklm:auth": "notebooklm-mcp setup_auth",
+    "notebooklm:server": "notebooklm-mcp --transport http --port 3000",
+    "pipeline": "node scripts/orchestrator.js"
+  },
+  "keywords": [
+    "legal",
+    "juridico",
+    "multi-agent",
+    "adversarial",
+    "notebooklm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "yaml": "^2.3.0",
+    "glob": "^10.0.0",
+    "simple-git": "^3.0.0",
+    "notebooklm-mcp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
