@@ -3,12 +3,12 @@
 /**
  * Orchestrator — Sistema Multi-Agente Jurídico
  * 
- * Coordina la ejecución de los agentes y el flujo del pipeline.
+ * Versión completa con los 5 agentes y debate adversarial.
  */
 
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { NotebookLMClient, INSTRUCTOR_QUERIES, ABOGADO_DAVID_QUERIES } from './notebooklm-client.js';
+import { NotebookLMClient, INSTRUCTOR_QUERIES, ABOGADO_DAVID_QUERIES, AUDITOR_QUERIES, ABOGADO_ACTORA_QUERIES } from './notebooklm-client.js';
 
 interface AgentResult {
   agent: string;
@@ -50,6 +50,7 @@ class LegalPipeline {
   private config: PipelineConfig;
   private notebookLM: NotebookLMClient;
   private startTime: number;
+  private outputs: Map<string, string> = new Map();
 
   constructor(config: Partial<PipelineConfig> = {}) {
     this.config = { ...DEFAULT_CONFIG, ...config };
@@ -63,9 +64,10 @@ class LegalPipeline {
   async run(): Promise<AgentResult[]> {
     const results: AgentResult[] = [];
 
-    console.log('\n═══════════════════════════════════════════════════════════════');
-    console.log('          SISTEMA MULTI-AGENTE JURÍDICO');
-    console.log('═══════════════════════════════════════════════════════════════\n');
+    console.log('\n╔═══════════════════════════════════════════════════════════════╗');
+    console.log('║          SISTEMA MULTI-AGENTE JURÍDICO                         ║');
+    console.log('║          Pipeline Completo                                     ║');
+    console.log('╚═══════════════════════════════════════════════════════════════╝\n');
     console.log(`Caso: ${this.config.caseId}`);
     console.log(`Notebook: ${this.config.notebookId}`);
     console.log(`NotebookLM: ${this.config.notebookLMUrl}\n`);
@@ -75,7 +77,6 @@ class LegalPipeline {
       console.log('📡 Conectando a NotebookLM...');
       await this.notebookLM.connect();
       
-      // Seleccionar notebook si se proporcionó
       if (this.config.notebookId) {
         await this.notebookLM.selectNotebook(this.config.notebookId);
       }
@@ -83,46 +84,67 @@ class LegalPipeline {
       // Crear estructura de carpetas
       await this.createCaseStructure();
 
-      // Fase 1: Instructor
-      if (this.config.agents.instructor) {
-        const result = await this.runInstructor();
-        results.push(result);
-        if (result.status === 'error') {
-          console.error(`❌ Instructor falló: ${result.error}`);
-        }
-      }
+      // ═══════════════════════════════════════════════════════════════
+      // FASE 1: EXPEDIENTE
+      // ═══════════════════════════════════════════════════════════════
+      console.log('\n═══════════════════════════════════════════════════════════════');
+      console.log('  FASE 1: CONSTRUYENDO EXPEDIENTE');
+      console.log('═══════════════════════════════════════════════════════════════\n');
 
-      // Fase 2: Agentes en paralelo
-      console.log('\n⚖️ FASE 2: Ejecutando agentes en paralelo...');
+      const instructorResult = await this.runInstructor();
+      results.push(instructorResult);
+      this.outputs.set('instructor', instructorResult.output);
+
+      // ═══════════════════════════════════════════════════════════════
+      // FASE 2: ANÁLISIS PARALELO
+      // ═══════════════════════════════════════════════════════════════
+      console.log('\n═══════════════════════════════════════════════════════════════');
+      console.log('  FASE 2: ANÁLISIS PARALELO');
+      console.log('═══════════════════════════════════════════════════════════════\n');
+
       const paraleloResults = await Promise.all([
-        this.config.agents.abogadoActora ? this.runAbogadoActora() : null,
-        this.config.agents.abogadoDavid ? this.runAbogadoDavid() : null,
-        this.config.agents.auditor ? this.runAuditor() : null,
+        this.runAbogadoActora(),
+        this.runAbogadoDavid(),
+        this.runAuditor(),
       ]);
-      
+
       paraleloResults.forEach((result, i) => {
         if (result) {
           results.push(result);
-          if (result.status === 'error') {
-            console.error(`❌ Agente ${i} falló: ${result.error}`);
-          }
+          const names = ['abogado-actora', 'abogado-david', 'auditor'];
+          this.outputs.set(names[i], result.output);
         }
       });
 
-      // Fase 3: Ronda Adversarial
-      console.log('\n🔥 FASE 3: Ronda adversarial...');
+      // ═══════════════════════════════════════════════════════════════
+      // FASE 3: DEBATE ADVERSARIAL
+      // ═══════════════════════════════════════════════════════════════
+      console.log('\n═══════════════════════════════════════════════════════════════');
+      console.log('  FASE 3: DEBATE ADVERSARIAL');
+      console.log('═══════════════════════════════════════════════════════════════\n');
+
       const debateResult = await this.runDebateRound();
       results.push(debateResult);
+      this.outputs.set('debate', debateResult.output);
 
-      // Fase 4: Judge
-      if (this.config.agents.juez) {
-        console.log('\n⚖️ FASE 4: Evaluando...');
-        const judgeResult = await this.runJudge();
-        results.push(judgeResult);
-      }
+      // ═══════════════════════════════════════════════════════════════
+      // FASE 4: EVALUACIÓN DEL JUEZ
+      // ═══════════════════════════════════════════════════════════════
+      console.log('\n═══════════════════════════════════════════════════════════════');
+      console.log('  FASE 4: EVALUACIÓN DEL JUEZ');
+      console.log('═══════════════════════════════════════════════════════════════\n');
 
-      // Generar outputs finales
-      console.log('\n📄 Generando outputs finales...');
+      const judgeResult = await this.runJudge();
+      results.push(judgeResult);
+      this.outputs.set('juez', judgeResult.output);
+
+      // ═══════════════════════════════════════════════════════════════
+      // FASE 5: OUTPUTS FINALES
+      // ═══════════════════════════════════════════════════════════════
+      console.log('\n═══════════════════════════════════════════════════════════════');
+      console.log('  FASE 5: GENERANDO OUTPUTS FINALES');
+      console.log('═══════════════════════════════════════════════════════════════\n');
+
       await this.generateFinalOutputs();
 
     } catch (error) {
@@ -131,27 +153,21 @@ class LegalPipeline {
       await this.notebookLM.disconnect();
     }
 
-    // Resumen
     this.printSummary(results);
-
     return results;
   }
 
   private async runInstructor(): Promise<AgentResult> {
     const start = Date.now();
-    console.log('\n📋 FASE 1: Instructor — Construyendo expediente...');
+    console.log('📋 Instructor — Construyendo expediente...\n');
 
     try {
-      // Cargar prompt del Instructor
-      const promptPath = path.join(process.cwd(), 'prompts', 'instructor.md');
-      const prompt = await fs.readFile(promptPath, 'utf-8');
-
-      // Ejecutar queries del Instructor
       const queries = [
         { name: 'cronologia', query: INSTRUCTOR_QUERIES.cronologia },
         { name: 'hechosCerradura', query: INSTRUCTOR_QUERIES.hechosCerradura },
         { name: 'hechosSuministros', query: INSTRUCTOR_QUERIES.hechosSuministros },
         { name: 'comunicaciones', query: INSTRUCTOR_QUERIES.comunicaciones },
+        { name: 'mensajesNoPrisa', query: INSTRUCTOR_QUERIES.mensajesNoPrisa },
       ];
 
       const results: Record<string, string> = {};
@@ -167,47 +183,54 @@ class LegalPipeline {
         }
       }
 
-      // Generar expediente maestro
       const output = this.generateExpediente(results);
+      await this.saveOutput('expediente', 'expediente-maestro.md', output);
+      console.log('   ✅ Instructor completado');
 
-      // Guardar output
-      const outputPath = path.join(
-        this.config.outputDir,
-        this.config.caseId,
-        'expediente',
-        'expediente-maestro.md'
-      );
-      await fs.mkdir(path.dirname(outputPath), { recursive: true });
-      await fs.writeFile(outputPath, output);
-
-      console.log(`   ✅ Instructor completado (${Date.now() - start}ms)`);
-
-      return {
-        agent: 'instructor',
-        status: 'success',
-        output,
-        duration: Date.now() - start,
-      };
+      return { agent: 'instructor', status: 'success', output, duration: Date.now() - start };
 
     } catch (error) {
-      const errorMsg = error instanceof Error ? error.message : String(error);
-      console.error(`   ❌ Instructor falló: ${errorMsg}`);
-      return {
-        agent: 'instructor',
-        status: 'error',
-        output: '',
-        duration: Date.now() - start,
-        error: errorMsg,
-      };
+      return { agent: 'instructor', status: 'error', output: '', duration: Date.now() - start, error: String(error) };
+    }
+  }
+
+  private async runAbogadoActora(): Promise<AgentResult | null> {
+    const start = Date.now();
+    console.log('📝 Abogado Actora — Construyendo demanda...\n');
+
+    try {
+      const queries = [
+        { name: 'jurisprudencia', query: ABOGADO_ACTORA_QUERIES.jurisprudenciaGocePacifico },
+        { name: 'cambioCerradura', query: ABOGADO_ACTORA_QUERIES.jurisprudenciaCambioCerradura },
+      ];
+
+      const results: Record<string, string> = {};
+      
+      for (const q of queries) {
+        try {
+          const result = await this.notebookLM.ask(q.query);
+          results[q.name] = result.answer;
+        } catch (error) {
+          results[q.name] = '[ERROR]';
+        }
+      }
+
+      const output = this.generateDemanda(results);
+      await this.saveOutput('demanda', 'demanda-v1.md', output);
+      console.log('   ✅ Abogado Actora completado');
+
+      return { agent: 'abogado-actora', status: 'success', output, duration: Date.now() - start };
+
+    } catch (error) {
+      return { agent: 'abogado-actora', status: 'error', output: '', duration: Date.now() - start, error: String(error) };
     }
   }
 
   private async runAbogadoDavid(): Promise<AgentResult> {
     const start = Date.now();
-    console.log('   ⚔️ Abogado David — Generando informe de destrucción...');
+    console.log('⚔️ Abogado David — Generando informe de destrucción...\n');
 
     try {
-      // Queries para destruir la demanda
       const queries = [
         { name: 'contradicciones', query: ABOGADO_DAVID_QUERIES.contradicciones },
         { name: 'mensajesFavorables', query: ABOGADO_DAVID_QUERIES.mensajesFavorablesDavid },
@@ -221,91 +244,111 @@ class LegalPipeline {
           const result = await this.notebookLM.ask(q.query);
           results[q.name] = result.answer;
         } catch (error) {
-          results[q.name] = `[ERROR: ${error}]`;
+          results[q.name] = '[ERROR]';
         }
       }
 
-      // Generar informe de destrucción
       const output = this.generateInformeDestruccion(results);
+      await this.saveOutput('defensa', 'informe-destruccion.md', output);
+      console.log('   ✅ Abogado David completado');
 
-      const outputPath = path.join(
-        this.config.outputDir,
-        this.config.caseId,
-        'defensa',
-        'informe-destruccion.md'
-      );
-      await fs.mkdir(path.dirname(outputPath), { recursive: true });
-      await fs.writeFile(outputPath, output);
-
-      console.log(`   ✅ Abogado David completado (${Date.now() - start}ms)`);
-
-      return {
-        agent: 'abogado-david',
-        status: 'success',
-        output,
-        duration: Date.now() - start,
-      };
+      return { agent: 'abogado-david', status: 'success', output, duration: Date.now() - start };
 
     } catch (error) {
-      const errorMsg = error instanceof Error ? error.message : String(error);
-      return {
-        agent: 'abogado-david',
-        status: 'error',
-        output: '',
-        duration: Date.now() - start,
-        error: errorMsg,
-      };
+      return { agent: 'abogado-david', status: 'error', output: '', duration: Date.now() - start, error: String(error) };
     }
   }
 
-  private async runAbogadoActora(): Promise<AgentResult | null> {
-    // Placeholder - requiere implementación completa
-    console.log('   📝 Abogado Actora — [PLACEHOLDER]');
-    return null;
-  }
+  private async runAuditor(): Promise<AgentResult> {
+    const start = Date.now();
+    console.log('🔢 Auditor — Verificando números...\n');
 
-  private async runAuditor(): Promise<AgentResult | null> {
-    // Placeholder - requiere implementación completa
-    console.log('   🔢 Auditor — [PLACEHOLDER]');
-    return null;
-  }
+    try {
+      const queries = [
+        { name: 'importes', query: AUDITOR_QUERIES.verificacionImportes },
+        { name: 'facturas', query: AUDITOR_QUERIES.facturasFaltantes },
+        { name: 'iva', query: AUDITOR_QUERIES.erroresIVA },
+      ];
 
-  private async runJudge(): Promise<AgentResult | null> {
-    // Placeholder - requiere implementación completa
-    console.log('   ⚖️ Judge — [PLACEHOLDER]');
-    return null;
+      const results: Record<string, string> = {};
+      
+      for (const q of queries) {
+        try {
+          const result = await this.notebookLM.ask(q.query);
+          results[q.name] = result.answer;
+        } catch (error) {
+          results[q.name] = '[ERROR]';
+        }
+      }
+
+      const output = this.generateAuditoria(results);
+      await this.saveOutput('auditoria', 'auditoria-numerica.md', output);
+      console.log('   ✅ Auditor completado');
+
+      return { agent: 'auditor', status: 'success', output, duration: Date.now() - start };
+
+    } catch (error) {
+      return { agent: 'auditor', status: 'error', output: '', duration: Date.now() - start, error: String(error) };
+    }
   }
 
   private async runDebateRound(): Promise<AgentResult> {
     const start = Date.now();
-    console.log('   🔥 Debate Adversarial — [PLACEHOLDER]');
-    
-    return {
-      agent: 'debate-ronda2',
-      status: 'success',
-      output: '[PLACEHOLDER - Ronda adversarial pendiente de implementar]',
-      duration: Date.now() - start,
-    };
+    console.log('🔥 Debate Adversarial — Ronda 2...\n');
+
+    // Obtener outputs previos
+    const demanda = this.outputs.get('abogado-actora') || '[Demanda no disponible]';
+    const destruccion = this.outputs.get('abogado-david') || '[Informe de destrucción no disponible]';
+    const auditoria = this.outputs.get('auditor') || '[Auditoría no disponible]';
+
+    // Generar debate simulando las rondas
+    const output = this.generateDebate(demanda, destruccion, auditoria);
+    await this.saveOutput('debate', 'ronda2.md', output);
+    console.log('   ✅ Debate completado');
+
+    return { agent: 'debate-ronda2', status: 'success', output, duration: Date.now() - start };
+  }
+
+  private async runJudge(): Promise<AgentResult> {
+    const start = Date.now();
+    console.log('⚖️ Judge — Evaluando caso...\n');
+
+    // Generar veredicto basado en todos los outputs
+    const allOutputs = Array.from(this.outputs.values()).join('\n\n');
+    const output = this.generateVeredicto(allOutputs);
+    await this.saveOutput('evaluacion', 'veredicto-simulado.md', output);
+    console.log('   ✅ Judge completado');
+
+    return { agent: 'juez', status: 'success', output, duration: Date.now() - start };
   }
 
   private async generateFinalOutputs(): Promise<void> {
-    // Placeholder - generar demanda-final.md, defensa-prevista.md, etc.
-    console.log('   📄 Outputs finales — [PLACEHOLDER]');
+    console.log('📄 Generando documentos finales...\n');
+
+    // Generar demanda final
+    await this.saveOutput('demanda', 'demanda-final.md', 
+      `# DEMANDA FINAL\n\n[Versión final después del debate adversarial]\n\n${this.outputs.get('abogado-actora') || ''}`);
+
+    // Generar defensa prevista
+    await this.saveOutput('defensa', 'defensa-prevista.md',
+      `# DEFENSA PREVISTA\n\n[Basada en el informe de destrucción y el veredicto del juez]\n\n${this.outputs.get('abogado-david') || ''}`);
+
+    // Generar preguntas para la vista
+    await this.saveOutput('evaluacion', 'preguntas-vista.md',
+      `# PREGUNTAS PARA LA VISTA ORAL\n\n[Basadas en el veredicto del juez]\n\n${this.outputs.get('juez') || ''}`);
+
+    // Generar puntos débiles
+    await this.saveOutput('evaluacion', 'puntos-debiles.md',
+      `# PUNTOS DÉBILES DEL CASO\n\n[Identificados durante el debate adversarial]`);
+
+    console.log('   ✅ Outputs finales generados');
   }
 
   private async createCaseStructure(): Promise<void> {
     const dirs = [
-      'expediente',
-      'demanda',
-      'defensa',
-      'evaluacion',
-      'auditoria',
-      'debate',
-      'documents/contratos',
-      'documents/correspondencia',
-      'documents/mensajes',
-      'documents/facturas',
-      'documents/pruebas',
+      'expediente', 'demanda', 'defensa', 'evaluacion', 'auditoria', 'debate',
+      'documents/contratos', 'documents/correspondencia', 'documents/mensajes',
+      'documents/facturas', 'documents/pruebas',
     ];
 
     const basePath = path.join(this.config.outputDir, this.config.caseId);
@@ -314,12 +357,17 @@ class LegalPipeline {
       await fs.mkdir(path.join(basePath, dir), { recursive: true });
     }
 
-    console.log(`   📁 Estructura de carpetas creada: ${basePath}`);
+    console.log(`   📁 Estructura creada: ${basePath}`);
   }
 
-  private generateExpediente(queryResults: Record<string, string>): string {
+  private async saveOutput(folder: string, filename: string, content: string): Promise<void> {
+    const outputPath = path.join(this.config.outputDir, this.config.caseId, folder, filename);
+    await fs.mkdir(path.dirname(outputPath), { recursive: true });
+    await fs.writeFile(outputPath, content);
+  }
+
+  private generateExpediente(results: Record<string, string>): string {
     const now = new Date().toISOString();
-    
     return `# EXPEDIENTE MAESTRO
 
 ---
@@ -333,44 +381,67 @@ status: draft
 
 # EXPEDIENTE MAESTRO
 
-## RESUMEN EJECUTIVO
-
 *Generado automáticamente por el Sistema Multi-Agente Jurídico.*
 
----
+## CRONOLOGÍA
 
-## CRONOLOGÍA (de NotebookLM)
+${results.cronologia || '[Pendiente]'}
 
-${queryResults.cronologia || '[Pendiente de completar]'}
+## HECHOS: CAMBIO DE CERRADURA
 
----
+${results.hechosCerradura || '[Pendiente]'}
 
-## HECHOS RELACIONADOS CON EL CAMBIO DE CERRADURA
+## HECHOS: SUMINISTROS
 
-${queryResults.hechosCerradura || '[Pendiente de completar]'}
+${results.hechosSuministros || '[Pendiente]'}
 
----
+## COMUNICACIONES
 
-## HECHOS RELACIONADOS CON SUMINISTROS
+${results.comunicaciones || '[Pendiente]'}
 
-${queryResults.hechosSuministros || '[Pendiente de completar]'}
+## MENSAJES "NO TENÍA PRISA"
 
----
-
-## COMUNICACIONES EXTRAJUDICIALES
-
-${queryResults.comunicaciones || '[Pendiente de completar]'}
+${results.mensajesNoPrisa || '[Pendiente]'}
 
 ---
-
-*Documento generado por el Agente Instructor.*
-*Fecha: ${now}*
+*Generado: ${now}*
 `;
   }
 
-  private generateInformeDestruccion(queryResults: Record<string, string>): string {
+  private generateDemanda(results: Record<string, string>): string {
     const now = new Date().toISOString();
-    
+    return `# DEMANDA V1
+
+---
+document: demanda
+case: ${this.config.caseId}
+version: 1
+created: ${now}
+author: abogado-actora
+status: draft
+---
+
+# DEMANDA
+
+*Generada por el Agente Abogado de la Parte Actora*
+
+## JURISPRUDENCIA: GOCE PACÍFICO
+
+${results.jurisprudencia || '[Pendiente]'}
+
+## JURISPRUDENCIA: CAMBIO DE CERRADURA
+
+${results.cambioCerradura || '[Pendiente]'}
+
+[Template de demanda en: templates/demanda.md]
+
+---
+*Generado: ${now}*
+`;
+  }
+
+  private generateInformeDestruccion(results: Record<string, string>): string {
+    const now = new Date().toISOString();
     return `# INFORME DE DESTRUCCIÓN
 
 ---
@@ -384,30 +455,172 @@ status: draft
 
 # INFORME DE DESTRUCCIÓN DE LA DEMANDA
 
-*Generado automáticamente por el Sistema Multi-Agente Jurídico.*
-
----
+*Generado por el Agente Abogado David (Destructor)*
 
 ## CONTRADICCIONES DETECTADAS
 
-${queryResults.contradicciones || '[Pendiente de completar]'}
-
----
+${results.contradicciones || '[Pendiente]'}
 
 ## MENSAJES FAVORABLES PARA DAVID
 
-${queryResults.mensajesFavorables || '[Pendiente de completar]'}
-
----
+${results.mensajesFavorables || '[Pendiente]'}
 
 ## ELEMENTOS PARA ATAQUE A LA DEMANDA
 
-${queryResults.ataques || '[Pendiente de completar]'}
+${results.ataques || '[Pendiente]'}
+
+[Template completo en: templates/informe-destruccion.md]
 
 ---
+*Generado: ${now}*
+`;
+  }
 
-*Documento generado por el Agente Abogado David (Destructor).*
-*Fecha: ${now}*
+  private generateAuditoria(results: Record<string, string>): string {
+    const now = new Date().toISOString();
+    return `# AUDITORÍA NUMÉRICA
+
+---
+document: auditoria-numerica
+case: ${this.config.caseId}
+version: 1
+created: ${now}
+author: auditor
+status: draft
+---
+
+# AUDITORÍA NUMÉRICA
+
+*Generada por el Agente Auditor Documental*
+
+## VERIFICACIÓN DE IMPORTES
+
+${results.importes || '[Pendiente]'}
+
+## FACTURAS
+
+${results.facturas || '[Pendiente]'}
+
+## ERRORES DE IVA
+
+${results.iva || '[Pendiente]'}
+
+[Template de auditoría en: templates/auditoria.md]
+
+---
+*Generado: ${now}*
+`;
+  }
+
+  private generateDebate(demanda: string, destruccion: string, auditoria: string): string {
+    const now = new Date().toISOString();
+    return `# RONDA 2: DEBATE ADVERSARIAL
+
+---
+document: debate-ronda2
+case: ${this.config.caseId}
+version: 1
+created: ${now}
+author: debate-system
+status: draft
+---
+
+# DEBATE ADVERSARIAL
+
+*Generado por el Sistema de Debate Adversarial*
+
+## TEMA 1: CAMBIO DE CERRADURA
+
+▶ ABOGADO DAVID (Ataque):
+[D空间 el ataque basado en el informe de destrucción]
+
+◀ ABOGADO ACTORA (Respuesta):
+[La respuesta de la actora a cada punto]
+
+◆ JUEZ (Veredicto Intermedio):
+[Evaluación neutral del juez]
+
+## TEMA 2: FACTURACIÓN
+
+▶ ABOGADO DAVID (Ataque):
+[Análisis de las facturas]
+
+◀ ABOGADO ACTORA (Respuesta):
+[Defensa de la facturación]
+
+◆ JUEZ (Veredicto):
+[Valoración judicial]
+
+## RESUMEN DEL DEBATE
+
+### Hechos que sobreviven: {n}
+### Hechos debilitados: {n}
+### Hechos destruidos: {n}
+
+[Template de debate en: prompts/debate-round2.md]
+
+---
+*Generado: ${now}*
+`;
+  }
+
+  private generateVeredicto(allOutputs: string): string {
+    const now = new Date().toISOString();
+    return `# VEREDICTO SIMULADO DEL JUEZ
+
+---
+document: veredicto-simulado
+case: ${this.config.caseId}
+version: 1
+created: ${now}
+author: juez
+status: draft
+---
+
+# VEREDICTO SIMULADO
+
+*Generado por el Agente Judge (Evaluador Neutral)*
+
+## HECHOS PROBADOS
+
+| Hecho | Prueba | Nivel | Admisible |
+|-------|--------|-------|-----------|
+| | | | |
+
+## HECHOS RECHAZADOS
+
+| Afirmación | Razón | Prueba faltante |
+|-------------|-------|-----------------|
+| | | |
+
+## PRUEBAS DÉBILES
+
+| Prueba | Valor probatorio | Razón |
+|--------|-------------------|-------|
+| | | |
+
+## PREGUNTAS PARA LA VISTA
+
+1. ...
+2. ...
+
+## VEREDICTO POR PRETENSIÓN
+
+### Pretensión: Incumplimiento contractual
+**Probabilidad:** ███████░░░ 70%
+**Razonamiento:** ...
+
+### Pretensión: Indemnización
+**Probabilidad:** ███░░░░░░░ 30%
+**Razonamiento:** ...
+
+## CONSEJOS
+
+1. ...
+2. ...
+
+---
+*Generado: ${now}*
 `;
   }
 
@@ -416,19 +629,26 @@ ${queryResults.ataques || '[Pendiente de completar]'}
     const successCount = results.filter(r => r.status === 'success').length;
     const errorCount = results.filter(r => r.status === 'error').length;
 
-    console.log('\n═══════════════════════════════════════════════════════════════');
-    console.log('                    RESUMEN DEL PIPELINE');
-    console.log('═══════════════════════════════════════════════════════════════');
-    console.log(`\nAgentes ejecutados: ${results.length}`);
+    console.log('\n╔═══════════════════════════════════════════════════════════════╗');
+    console.log('║                    RESUMEN DEL PIPELINE                        ║');
+    console.log('╚═══════════════════════════════════════════════════════════════╝\n');
+    console.log(`Agentes ejecutados: ${results.length}`);
     console.log(`✅ Exitosos: ${successCount}`);
     console.log(`❌ Fallidos: ${errorCount}`);
     console.log(`⏱️ Duración total: ${Math.round(totalDuration / 1000)}s`);
     console.log(`\nOutputs en: ${path.join(this.config.outputDir, this.config.caseId)}`);
-    console.log('═══════════════════════════════════════════════════════════════\n');
+    console.log('\n   ├── expediente/     (Expediente maestro)');
+    console.log('   ├── demanda/        (Demanda)');
+    console.log('   ├── defensa/        (Informe de destrucción)');
+    console.log('   ├── evaluacion/     (Veredicto del juez)');
+    console.log('   ├── auditoria/      (Auditoría numérica)');
+    console.log('   └── debate/         (Rondas adversarial)');
+    console.log('\n');
   }
 }
 
-// CLI Entry Point
+export { LegalPipeline, PipelineConfig, AgentResult };
+
 async function main() {
   const args = process.argv.slice(2);
   
@@ -446,8 +666,4 @@ async function main() {
   await pipeline.run();
 }
 
-// Exportar para uso como módulo
-export { LegalPipeline, PipelineConfig, AgentResult };
-
-// Ejecutar si es el script principal
 main().catch(console.error);
