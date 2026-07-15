@@ -272,7 +272,10 @@ El abogado de Mañas sigue este **manual de destrucción**:
     │ ¿Días sin     │                       │ avisó?           │
     │ acceso?       │                       │ "prisas y        │
     │ ¿Podías       │                       │ nervios"         │
-    │ entrar?       │                       └────────┬────────┘
+    │ entrar?       │                       │ coartada         │
+    │ WhatsApp      │                       │ (Victor/         │
+    │ 16 abril?     │                       │  escritura)      │
+    │               │                       └────────┬────────┘
     └───────┬───────┘                                │
             │                                        │
             ▼                                        ▼
