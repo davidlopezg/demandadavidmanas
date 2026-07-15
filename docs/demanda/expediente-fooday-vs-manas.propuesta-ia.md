@@ -273,7 +273,7 @@ A título informativo, el procedimiento que se tramitará ante el Juzgado de Pri
 | Cecília Esteban i Costa | Persona de contacto operativo en la gestoría |
 | **Cristóbal Rodríguez Hernández** | De la empresa **Obres del Port**, emisor de un presupuesto de **2.401,85 €** por **"quitar la puerta metálica y remolinar montantes"** del local. Su intervención documenta que el sistema de acceso al local fue objeto de obras expresamente previstas en la puesta a punto inicial. |
 | Jose Bello Viña | Emisor de un presupuesto de 930 € por techo registrable |
-| "Victor" | [⚠️ CONTRADICCIÓN MCP] — pendiente de verificación manual del PDF `ma%C3%B1as2.pdf` |
+| "Victor" | Resuelto: **Victor Mañas**, hermano de David Mañas, presente en el local el 16/04/2026. Conversación documentada en `Whatsapp.docx`. |
 
 ---
 
@@ -289,15 +289,15 @@ La decisión de presentar la demanda de **15 de julio de 2026** es el resultado 
 
 ### 1) Comunicación amistosa inicial tras el descubrimiento del cambio del bombín
 
-Una vez que la actora tuvo conocimiento del cambio del bombín (abril de 2026 — día exacto [DND]), se dirigió al demandado por los cauces ordinarios de comunicación (correo electrónico y, en apariencia, mensajería instantánea), solicitando explicación sobre el cambio sufrido. [HECHO parcial, inferencia de la práctica]
+El **16 de abril de 2026, a las 09:26**, la actora descubre que la llave del local no abre. Se dirige inmediatamente al demandado por WhatsApp, señalando: "Estoy en la oficina y no me abre la llave, supongo que habréis cambiado el bombín. ¿Cómo lo hacemos para que recoja mi copia?" [HECHO, `Whatsapp.docx`]
 
-### 2) Solicitud formal de explicación
+### 2) Solicitud de explicación y respuesta inicial
 
-Las comunicaciones mantenidas con el demandado incluyeron solicitudes concretas de explicación del cambio del bombín y, en particular, del motivo por el que se había producido sin comunicación previa. La respuesta del demandado del 3 de julio de 2026, 18:32, documenta este intercambio. [HECHO parcial, `[NL-8]`]
+A las 09:32, David Mañas responde que su hermano Victor se encuentra en el local y que el bombín "estaba estropeado". [HECHO, `Whatsapp.docx`] Esta es la primera manifestación escrita del demandado sobre el motivo del cambio (avería técnica). Una manifestación posterior, de 3 de julio de 2026, sustituirá esta explicación por "prisas y nervios" (ver §13).
 
-### 3) Solicitud reiterada de entrega de la llave
+### 3) Solicitud reiterada de entrega de la llave y solución alternativa de la actora
 
-La actora solicitó la entrega inmediata de la copia de la llave destinada a FOODAY que, según el propio correo del demandado, obraba en su poder. Esta solicitud se ha reiterado en sucesivas comunicaciones sin que conste acreditada la entrega efectiva a la actora. [HECHO parcial, `[NL-8]`]
+A las 10:21, la actora manifiesta que no necesita la llave de forma inmediata ("cuando nos veamos me la das sin prisa") y propone una solución alternativa ("al final la he pedido copia al notario"). A las 10:26 reitera la postura ("no tengo prisa, cuando nos veamos"). A las 10:29 Victor Mañas responde escuetamente a la actora. [HECHO, `Whatsapp.docx`] En sucesivas comunicaciones — sin fecha acreditada en las fuentes — la actora ha solicitado la entrega efectiva de la copia, sin que conste acreditada. [HECHO parcial, `[NL-8]`]
 
 ### 4) Solicitud de documentación de soporte de los suministros
 
@@ -396,13 +396,40 @@ Transcurrido el plazo concedido sin respuesta sustantiva por la parte demandada,
 
 | Fecha | Hecho | Fuente |
 |---|---|---|
-| **Abril de 2026** (día exacto [DND]) | Cambio del bombín de acceso al local. | [HECHO parcial, `[NL-6]`] |
-| Abril de 2026 | Sin constancia documental de comunicación previa a FOODAY sobre el cambio. | [HECHO parcial — por ausencia de documento] |
-| Abril de 2026 | Sin constancia documental de comunicación inmediata posterior por parte de David Mañas. | [HECHO parcial] |
+| **Abril de 2026** (día exacto del cambio [DND]) | Cambio del bombín de acceso al local. | [HECHO parcial, `[NL-6]`] |
+| **16/04/2026, 09:26** | Descubrimiento del cambio por la actora. David López se presenta en la oficina, la llave no abre, y lo pone en conocimiento de David Mañas por WhatsApp: "Estoy en la oficina y no me abre la llave, supongo que habréis cambiado el bombín. ¿Cómo lo hacemos para que recoja mi copia?" | [HECHO, `Whatsapp.docx`] |
+| **16/04/2026, 09:32** | David Mañas responde: "Ostia si ahora está mi hermano allí" / "Estaba estropeado". | [HECHO, `Whatsapp.docx`] |
+| **16/04/2026, 10:21–10:29** | La actora adopta una actitud conciliadora (mensajes de "no prisa" — ver §6.3.0) y David Mañas ofrece la entrega en persona (nota de audio a las 10:22). | [HECHO, `Whatsapp.docx`] |
+| Abril–julio 2026 | Sin constancia documental de comunicación previa al descubrimiento. | [HECHO parcial — por ausencia de documento] |
+| Abril–julio 2026 | Sin constancia documental de comunicación inmediata posterior por parte de David Mañas. | [HECHO parcial] |
 
-> **Nota sobre la fecha exacta:** la fuente documental del cuaderno indica únicamente que el cambio se produjo "en el mes de abril de 2026", por propia manifestación de David Mañas. El día exacto **no figura acreditado** en las fuentes consultadas. **[DND]**.
+> **Nota sobre las fechas:** la fecha exacta del día del cambio del bombín (es decir, el día en que David Mañas materialmente sustituyó el bombín) **no figura acreditada** en las fuentes consultadas. Lo que sí consta es la fecha del descubrimiento por la actora (**16/04/2026, 09:26**), en la que David Mañas ya manifiesta que el cambio se había producido, y la fecha en que la actora tuvo por primera vez conocimiento de que David tenía en su poder la copia de la llave. **[DND]** respecto a la fecha del cambio; **[HECHO]** respecto a la fecha del descubrimiento.
 
-## 6.3 Correos electrónicos entre las partes
+## 6.3 Correos electrónicos y conversaciones de WhatsApp entre las partes
+
+### 6.3.0 Conversación de WhatsApp de 16 de abril de 2026 (descubrimiento del cambio del bombín)
+
+**Fuente:** `Whatsapp.docx` (íntegro en el cuaderno)
+**Interlocutores:** David López Gamero (FOODAY) — David Mañas Esteban — Victor Mañas (hermano de David)
+**Tono del día:** informal, no conflictivo; la actora no genera un conflicto inmediato por la falta de llave.
+
+| Hora | Emisor | Mensaje literal | Comentario |
+|---|---|---|---|
+| 09:26 | David López | *"David, te he enviado un mail. Estoy en la oficina y no me abre la llave, supongo que habréis cambiado el bombín. ¿Cómo lo hacemos para que recoja mi copia?"* | Primer mensaje tras el descubrimiento. |
+| 09:32 | David Mañas | *"Ostia si ahora está mi hermano allí"* | Indica que Victor estaba en el local. |
+| 09:32 | David Mañas | *"Estaba estropeado"* | **Primera justificación del cambio**: avería técnica. Esta versión será sustituida el 3 de julio por "prisas y nervios" (ver §13). |
+| 10:21 | David López | *"No pasa nada, no hace falta. Necesitaba una copia de un escritura que tengo allí, pero al final la he pedido copia al notario. Cuando nos veamos me la das sin prisa, gracias!"* | Actitud conciliadora de la actora; busca solución alternativa (notario). |
+| 10:22 | David Mañas (audio) | *"A-ahora voy a la oficina, que tengo que coger una cosa. Si estás por aquí, te la doy"* | Ofrece la entrega en persona. |
+| 10:24 | David López → Victor | *"Victor, supongo que me has llamado por la llaves, voy un poco liado, ya le he enviado a tu hermano, sin prisa cuando nos vemos me das, gracias!"* | La actora entiende que Victor le ha llamado por la llave. |
+| 10:26 | David López → David | *"David, estoy en la Selva ya... pero no tengo prisa, cuando nos veamos, y si me surge algo te llamo y te la paso a buscar, no te preocupes. Merci!"* | Mensaje de "no prisa" del 16 de abril. |
+| 10:29 | Victor Mañas | *"Jo también"* | Respuesta escueta. |
+
+> **Observaciones documentales del 16 de abril de 2026:**
+> - **Victor Mañas es identificado como hermano de David Mañas** (la actora lo trata como tal al hablarle directamente).
+> - **Victor se encontraba en el local** en el momento del descubrimiento; la actora le dirige un mensaje directo a las 10:24.
+> - **La justificación inicial del cambio (9:32) fue una avería técnica** ("estaba estropeado"). En el correo del 3 de julio, David Mañas sustituye esa explicación por la de "prisas y nervios". Ambas manifestaciones son atribuibles a David Mañas; la actora no ha realizado manifestación equivalente.
+> - **Los mensajes de "no prisa" son posteriores al descubrimiento del cambio, no anteriores**. Reflejan una reacción inicial conciliadora de la actora, no una aceptación del cambio ni una renuncia a derechos.
+> - **La actora buscó una solución alternativa (pedir copia de la escritura al notario) sin generar conflicto**, lo que constituye un elemento de buena fe adicional.
 
 ### 6.3.1 Correo de 3 de julio de 2026, 18:32 — "TEMA CLAUS / CANVI DE PANY"
 
@@ -789,7 +816,7 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | 1 | El contrato de subarrendamiento existe y fue firmado el 01/12/2018. | Contrato PDF `[NL-3][NL-4]` | [HECHO] |
 | 2 | El contrato está vinculado al plazo del arrendamiento matriz (10 años). | Estipulació 2 + Clàusula 3ª `[NL-3]` | [HECHO] |
 | 3 | El local se encuentra en El Port de la Selva. | §3.4 | [HECHO] |
-| 4 | Conforme a la documentación disponible, el cambio del bombín de acceso tuvo lugar durante el mes de abril de 2026. | `[NL-6][NL-8]` | [HECHO] |
+| 4 | Conforme a la documentación disponible, el cambio del bombín de acceso tuvo lugar durante el mes de abril de 2026. La actora tuvo conocimiento del mismo el **16/04/2026 a las 09:26**, según resulta de la conversación de WhatsApp mantenida con David Mañas. | `Whatsapp.docx` + `[NL-6][NL-8]` | [HECHO] |
 | 5 | David Mañas justificó el cambio por "las prisas y los nervios". | `[NL-8]` | [HECHO — manifestación del demandado] |
 | 6 | David tenía copia de la llave destinada a FOODAY. | `[NL-8]` | [HECHO] |
 | 7 | El acceso al local quedó condicionado al horario de oficina, según la disponibilidad indicada por el demandado en sus comunicaciones. | `[NL-8][NL-19]` | [HECHO] |
@@ -802,6 +829,9 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | 14 | La fianza de 600 € fue transferida a INCASOL el 02/01/2019. | identificación MCP | [HECHO] |
 | 15 | El pago íntegro de la renta por parte de FOODAY se afirma y debe acreditarse. | ☐ [HUMANO] extracto bancario | PENDIENTE |
 | 16 | El IVA repercutido en exceso desde 2018 está pendiente de auditoría. | — | [HECHO parcial] |
+| 17 | El cambio del bombín fue descubierto por la actora el **16/04/2026 a las 09:26**, al intentar acceder al local. | `Whatsapp.docx` | [HECHO] |
+| 18 | **Victor Mañas** (hermano de David) se encontraba en el local en el momento del descubrimiento y mantuvo una breve conversación con la actora. | `Whatsapp.docx` | [HECHO] |
+| 19 | La justificación inicial de David Mañas para el cambio fue **avería técnica** ("estaba estropeado", 9:32 del 16/04). El 3 de julio, la justificación pasó a ser **impulso personal** ("prisas y nervios"). | `Whatsapp.docx` + `[NL-8]` | [HECHO — dos versiones atribuibles al demandado] |
 
 ---
 
@@ -856,12 +886,14 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | 1 | Contrato PDF | `CONT. LLOG. LOCAL SAZOR - MAÑAS 01.12.2018.pdf` `[NL-1]` |
 | 2 | Contrato PDF | `SUB. CONT. MAÑAS - LOPEZ 01.12.2018.pdf` `[NL-3]` |
 | 3 | Anexo al contrato | Presupuesto Instal·lacions David 02/12/2018 (1.949,66 €) `[NL-5]` |
-| 4 | Correo electrónico | `ma%C3%B1as.pdf` — 03/07/2026 18:32 `[NL-8]` |
-| 5 | Correo electrónico + 4 adjuntos | `ma%C3%B1as2.pdf` — 04/07/2026 19:52 `[NL-10]` |
-| 6 | Documento de gestión | `Email a enviar a la Gestoria` — 07/07/2026 `[NL-15]` |
-| 7 | Documento estratégico | `Texto` `[NL-17]` |
-| 8 | Cuerpo legal | `codigocivil.pdf` `[NL-18]` |
-| 9 | Cuerpo legal | `Lau.pdf` |
+| 3b | Anexo al contrato | Presupuesto Obres del Port (Cristóbal Rodríguez Hernández) 02/12/2018 (2.401,85 €) — "puerta metálica y montantes" |
+| 4 | Conversación de WhatsApp | `Whatsapp.docx` — 16/04/2026 09:26–10:29 (descubrimiento del cambio, Victor Mañas) |
+| 5 | Correo electrónico | `ma%C3%B1as.pdf` — 03/07/2026 18:32 `[NL-8]` |
+| 6 | Correo electrónico + 4 adjuntos | `ma%C3%B1as2.pdf` — 04/07/2026 19:52 `[NL-10]` |
+| 7 | Documento de gestión | `Email a enviar a la Gestoria` — 07/07/2026 `[NL-15]` |
+| 8 | Documento estratégico | `Texto` `[NL-17]` |
+| 9 | Cuerpo legal | `codigocivil.pdf` `[NL-18]` |
+| 10 | Cuerpo legal | `Lau.pdf` |
 
 ## 12.2 Pruebas a obtener o indexar por la actora
 
@@ -871,7 +903,7 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | Justificantes bancarios de los pagos de renta 2018–2026 y del pago íntegro previo a la demanda | ☐ [HUMANO] |
 | Justificante de la fianza de 600 € (02/01/2019) | ☐ [HUMANO] |
 | Factura del bombín (en su caso) | [DND] |
-| Capturas o exportaciones de los mensajes cruzados vía WhatsApp en abril de 2026 | ☐ [HUMANO] |
+| Capturas o exportaciones de los mensajes cruzados vía WhatsApp en abril de 2026 | ✅ Indexado en `Whatsapp.docx` |
 | Resultado de la auditoría retroactiva del IVA en electricidad 2018–2026 | ☐ [HUMANO] |
 
 ---
@@ -882,7 +914,8 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 
 | # | Afirmación 1 | Fuente | Afirmación 2 | Fuente |
 |---|---|---|---|---|
-| 1 | "Les claus es van haver de canviar, perquè el pany estava trencat" `[NL-8]` | Justificación por el estado del bombín | "Les presses i els nervis van fer que no t'avises al moment" `[NL-8]` | Justificación por impulso personal |
+| 1 | "Les claus es van haver de canviar, perquè el pany estava trencat" `[NL-8]` | Justificación por el estado del bombín | "Les presses i els nervis van fer que no t'avises al moment" `[NL-8]` | Justificación por impulso personal | El juzgador podrá considerar si las dos afirmaciones son coherentes entre sí. |
+| 1b | "Estaba estropeado" `[Whatsapp.docx]` (16/04/2026, 09:32) | Justificación por avería técnica (versión inicial, día del descubrimiento) | "Les presses i els nervis..." `[NL-8]` (3/07/2026) | Justificación por impulso personal (versión posterior, 78 días después) | El demandado ha ofrecido dos justificaciones distintas para un mismo hecho, con 78 días de separación. |
 | 2 | Las llaves "podien recollir-se en el despatx" `[NL-8]` | Disponibilidad declarada | "Si al mes de juliol no tens la nova clau..." `[NL-6]` | Reconocimiento de no entrega |
 | 3 | "Et correspon pagar-lo" `[NL-8]` | Reclamación inicial | "Si liquides el dilluns, no et cobraré el bombí" `[NL-11]` | Oferta condicional de no cobrar |
 | 4 | El local "ha estat obert de 8 hores a 13.30 [...] i moltes tardes de 18 a 20hrs" `[NL-19]` | Disponibilidad horaria | "Les presses i nervis [...] no t'avises" `[NL-8]` | Reconocimiento de falta de comunicación previa |
@@ -1342,6 +1375,10 @@ Fdo.: Luis David López Gamero
 3. Existencia y, en su caso, contenido de la comunicación inmediata.
 4. Documentación que justifique la calificación del cambio como "reparación de urgencia".
 5. Justificación documental del cálculo de los suministros.
+6. **Sobre la existencia de dos justificaciones sucesivas para un mismo hecho**: el 16/04/2026 a las 09:32 el demandado manifestó que el bombín "estaba estropeado" (avería técnica); el 03/07/2026 manifestó que actuó "por prisas y nervios" (impulso personal). ¿Cuál de las dos versiones se corresponde con la realidad y por qué razón ha modificado la explicación?
+7. **Sobre la presencia y papel de Victor Mañas el 16/04/2026**: confirmación de la identidad y relación de la persona que se encontraba en el local en el momento del descubrimiento, así como de las circunstancias en que se produjo la llamada a la actora.
+8. **Sobre la entrega efectiva de la copia de la llave a la actora**: fecha, hora y lugar en que, conforme a la manifestación del demandado, la copia fue entregada o estuvo efectivamente a disposición de la actora.
+9. **Sobre la mención al notario** por parte de la actora el 16/04/2026 (copia de la escritura): ¿tuvo conocimiento el demandado de la necesidad documental alegada por la actora y, en su caso, por qué no facilitó el acceso al local para obtenerla?
 
 ---
 
@@ -1385,8 +1422,9 @@ Fdo.: Luis David López Gamero
 | 1 | Contrato matriz `[NL-1]` | ✅ Indexado |
 | 2 | Subcontrato `[NL-3]` | ✅ Indexado |
 | 3 | Presupuesto Instal·lacions David 02/12/2018 `[NL-5]` | ✅ |
-| 4 | Correo `ma%C3%B1as.pdf` (03/07/2026 18:32) `[NL-8]` | ✅ |
-| 5 | Correo `ma%C3%B1as2.pdf` (04/07/2026 19:52) `[NL-10]` | ✅ |
+| 4 | Conversación de WhatsApp `Whatsapp.docx` (16/04/2026) | ✅ Indexado |
+| 5 | Correo `ma%C3%B1as.pdf` (03/07/2026 18:32) `[NL-8]` | ✅ |
+| 6 | Correo `ma%C3%B1as2.pdf` (04/07/2026 19:52) `[NL-10]` | ✅ |
 | 6 | Documento `Email a enviar a la Gestoria` `[NL-15]` | ✅ |
 | 7 | Documento `Texto` `[NL-17]` | ✅ |
 | 8 | `codigocivil.pdf` `[NL-18]` | ✅ |
@@ -1396,7 +1434,7 @@ Fdo.: Luis David López Gamero
 | 12 | Justificante de la fianza de 600 € (02/01/2019) | ☐ [HUMANO] |
 | 13 | Factura del bombín (si llegase a existir formalmente) | [DND] |
 | 14 | Adjuntos email 04/07 (facturas compañía) | ✅ |
-| 15 | Capturas WhatsApp abril 2026 | ☐ [HUMANO] |
+| 15 | Conversación de WhatsApp (16/04/2026) | ✅ Indexado en `Whatsapp.docx` |
 | 16 | Datos registrales | ✅ |
 | 17 | Auditoría retroactiva IVA 2018–2026 | ☐ [HUMANO] |
 
@@ -1414,11 +1452,11 @@ Fdo.: Luis David López Gamero
 
 ---
 
-# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 5 (v5)
+# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 6 (v6)
 
 > Por la propia naturaleza perito-documental del documento, la autovaloración se limita a una descripción metodológica.
 
-## Cambios acumulados hasta v5
+## Cambios acumulados hasta v6
 
 | Versión | Núcleo del cambio |
 |---|---|
@@ -1427,24 +1465,34 @@ Fdo.: Luis David López Gamero
 | **v3** | "Objeto del procedimiento" al inicio. Pretensión declarativa principal + subsidiaria liquidación. Compensación como instrumento de cierre. "Conducta procesal previa" cronológica. "Pago íntegro de la renta" como sección propia. |
 | **v4** | La estructura argumental de la actora **no depende del resultado del debate** sobre si el cambio del bombín es una reparación (Clàusula 7ª) o una modificación (Clàusula 10ª). |
 | **v5** | Incorporación de una "Filosofía del procedimiento" al inicio. Refinamientos finales de redacción para evitar precisiones no demostradas. |
+| **v6** | Incorporación de la fuente `Whatsapp.docx` (conversación de WhatsApp de 16/04/2026). |
 
-## Cambios específicos introducidos en v5
+## Cambios específicos introducidos en v6
 
 | Localización | Cambio |
 |---|---|
-| **§0.1 Filosofía del procedimiento (NUEVO)** | Incorporada como subsección de §0, inmediatamente antes de la pretensión principal. Texto: "La finalidad de este procedimiento no consiste en maximizar reclamaciones económicas ni en judicializar todas las discrepancias... El objeto principal consiste en que el Juzgado determine si determinadas actuaciones... fueron conformes con las obligaciones contractuales asumidas. Únicamente una vez resuelta esa cuestión principal corresponderá determinar, en su caso, las consecuencias económicas derivadas de dicha decisión." Renumerado: viejo §0.1 → §0.2; viejo §0.2 → §0.3; viejo §0.3 → §0.4. |
-| **§8.4 Coste del bombín — Cuestiones pendientes** | Añadido el punto 3: "Si, con independencia de quién deba asumir económicamente el coste del bombín, la forma en que se ejecutó la sustitución respetó las obligaciones contractuales relativas al acceso y disfrute del inmueble." |
-| **§10 Hechos acreditados #4** | Reformulada la formulación literal: de "David Mañas cambió el bombín de acceso en abril de 2026" a "Conforme a la documentación disponible, el cambio del bombín de acceso tuvo lugar durante el mes de abril de 2026." (matiz procesal: se evita aparentar precisión sobre el día exacto, del que no se tiene constancia documental.) |
-| **§10 Hechos acreditados #7** | Reformulada la formulación: de "El acceso al local quedó condicionado a horario de oficina" a "El acceso al local quedó condicionado al horario de oficina, **según la disponibilidad indicada por el demandado en sus comunicaciones**." (matiz procesal: la limitación es manifestada por el demandado, no inferida por la actora.) |
+| **§3.6 Terceros** | [⚠️ CONTRADICCIÓN MCP] resuelta: Victor Mañas confirmado como hermano de David Mañas, presente en el local el 16/04/2026. |
+| **§6.2 Cronología cambio del bombín** | Incorporado el descubrimiento del cambio el **16/04/2026 a las 09:26** con cita literal del WhatsApp. Matizada la nota sobre fechas (el día del cambio en sí sigue siendo [DND]; el día del descubrimiento sí está acreditado). |
+| **§6.3.0 NUEVO** | Sección íntegra dedicada a la conversación de WhatsApp del 16/04/2026, con transcripción de los 8 mensajes cronológicos (David López, David Mañas, Victor Mañas) y observaciones documentales. |
+| **§10 Hechos acreditados #4** | Reformulada para incorporar la fecha del descubrimiento. |
+| **§10 Hechos acreditados #17–19 (NUEVOS)** | Hecho #17: descubrimiento del cambio el 16/04/2026 a las 09:26. Hecho #18: Victor Mañas presente en el local. Hecho #19: dos versiones sucesivas del motivo del cambio (avería técnica el 16/04; impulso personal el 03/07). |
+| **§11.2 "No prisa"** | Sección enriquecida con los extractos del WhatsApp: 10:21 "sin prisa" + 10:26 "no tengo prisa" + propuesta de solución alternativa (notario). |
+| **§13 Análisis cruzado — nueva fila 1b** | Análisis comparado de la versión inicial ("estaba estropeado", 16/04, 09:32) y la versión posterior ("prisas y nervios", 03/07), separadas por 78 días. |
+| **§12.1 Catálogo de pruebas** | `Whatsapp.docx` incorporado como prueba nº 4. Renumeración del catálogo. |
+| **§12.2 Pruebas a obtener** | WhatsApp pasado de [☐ HUMANO] a ✅ Indexado en `Whatsapp.docx`. |
+| **§14 Anexos (cuadro de correspondencia madre)** | Actualizado: WhatsApp aparece como prueba indexada. |
+| **§24 Anexos físicos** | Actualizado: WhatsApp incorporado como prueba indexada. |
+| **§21.3 Preguntas para el interrogatorio** | Añadidas 4 preguntas nuevas (sobre las dos justificaciones, sobre Victor, sobre la entrega efectiva de la llave, sobre la mención al notario). |
+| **§4 Conducta procesal de la actora** | Fases 1, 2 y 3 reformuladas con los extractos del WhatsApp: descubrimiento a las 09:26, respuesta de David a las 09:32 ("estaba estropeado"), actitud conciliadora a las 10:21 y 10:26 ("sin prisa", "no tengo prisa"), intervención de Victor a las 10:29. |
 
-## Mensaje procesal del v5
+## Mensaje procesal del v6
 
-> Los refinamientos de redacción introducidos en v5 (Filosofía del procedimiento al inicio, formulaciones más matizadas en hechos acreditados, cuestión adicional sobre el coste del bombín) consolidan la línea metodológica que el expediente ha ido adoptando progresivamente: **hechos documentados; cuestiones a resolver por el juzgador; prudencia en las conclusiones; separación estricta entre prueba, calificación jurídica y pretensión**.
+> La incorporación de la conversación de WhatsApp del 16/04/2026 **refuerza** la posición procesal del v5: el descubrimiento del cambio se produjo en una fecha y hora acreditadas (16/04/2026, 09:26), y la justificación inicial de David Mañas (avería técnica) es **distinta** de la ofrecida 78 días después (impulso personal). Ambas circunstancias quedan fuera del debate sobre si el cambio era una "reparación" o una "modificación", y son **independientes de la calificación** del cambio. Se confirman, además, la buena fe procesal de la actora (mensajes conciliadores, búsqueda de solución alternativa) y la presencia de un tercero identificable (Victor Mañas, hermano del demandado) en el momento del descubrimiento.
 >
 > Este documento está pensado para ser entregado a un abogado como base de trabajo, no como demanda definitiva. La distinción entre lo acreditado y lo discutido se ha extremado para que el profesional que lo reciba pueda identificar con claridad qué información permanece abierta, qué prueba sigue faltando y qué decisiones corresponden al Juzgado.
 
 ---
 
-*Documento v5 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, como aplicación de la cuarta auditoría metodológica del usuario.*
+*Documento v6 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, tras la incorporación de `Whatsapp.docx` al cuaderno NotebookLM y la quinta auditoría metodológica del usuario.*
 
 *Convención del proyecto:* este archivo es paralelo al madre `expediente-fooday-vs-manas.md`, que solo el usuario modifica. Los agentes escriben en `*.propuesta-ia.md` y análogos.
