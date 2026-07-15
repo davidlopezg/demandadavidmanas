@@ -644,6 +644,7 @@ Si el juzgado entendiera que la sustitución del bombín excedía del concepto d
 3. Si la invocación de "presses i nervis" es susceptible de fundamentar una urgencia objetiva de ejecución.
 4. Si la limitación horaria documentada es compatible con el goce pacífico del inmueble (Art. 1554.3 CC).
 5. Si el coste del bombín debe ser asumido por la actora en cualquiera de los escenarios calificatorios posibles.
+6. **Si el subarrendador puede cambiar unilateralmente cualquier elemento del local, sin comunicarlo, sin entregar la llave y sin que el subarrendatario participe en la decisión, ¿qué límite tendría esa facultad respecto a los gastos que luego pretende repercudir?** — No es una afirmación jurídica, sino una forma de poner de manifiesto que la actuación debe tener límites. La respuesta dependerá del contrato y de la valoración judicial, pero es una línea de argumentación que puede ser relevante.
 
 ## 8.2 Indemnización por privación de uso (subsidiaria)
 
