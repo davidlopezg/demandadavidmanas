@@ -914,6 +914,26 @@ En el marco de la estructura argumental descrita:
 
 > [VALORACIÓN] La compatibilidad jurídica de estas dos manifestaciones es una cuestión que el juzgador deberá resolver.
 
+### 7.3.3 Conducta posterior del demandado respecto al coste del bombín {#733-conducta-posterior-del-demandado-respecto-al-coste-del-bombin}
+
+**Hechos acreditados**
+
+El demandado repercutió inicialmente a FOODAY PROJECT S.L. el 50 % del coste del cambio del bombín mediante la correspondiente factura.
+
+Tras la impugnación formulada por FOODAY PROJECT S.L., el demandado modificó la facturación emitida y, posteriormente, manifestó expresamente por escrito que, si se resolvía el subarrendamiento, no reclamaría el importe correspondiente al bombín.
+
+En ningún momento se facilitó a FOODAY PROJECT S.L. la factura o justificante emitido por el proveedor que realizó el cambio del bombín, pese a que dicha documentación resultaba relevante para verificar la realidad, fecha e importe del gasto repercutido.
+
+**Valoración**
+
+> La parte actora no afirma que el gasto no existiera ni que la factura del proveedor fuera inexistente, ya que carece de elementos para efectuar tal afirmación.
+>
+> Sin embargo, considera objetivamente relevante que el demandado calificara inicialmente dicho importe como una obligación contractual exigible y, posteriormente, ofreciera renunciar íntegramente a su cobro si FOODAY PROJECT S.L. aceptaba extinguir el subarrendamiento.
+>
+> Esta evolución resulta compatible con distintas interpretaciones, cuya valoración corresponde exclusivamente al juzgador. No obstante, la parte actora entiende que dicha conducta puede suscitar dudas razonables acerca de si la repercusión del coste del bombín respondía realmente a una obligación contractual clara o si fue utilizada como un elemento de negociación dentro del conflicto existente entre las partes.
+>
+> Del mismo modo, la ausencia de la factura o justificante del proveedor impide a la actora comprobar la efectiva realización del gasto, su fecha exacta y la corrección del importe repercutido.
+
 ## 7.4 Facturación de electricidad {#74-facturacion-de-electricidad}
 
 | Hechos acreditados | Fuente |
