@@ -146,6 +146,74 @@ En: `/repos/fooday-intelligence-core/docs/strategy/conflicto-facturacion-alquile
 
 ---
 
+## 2026-07-15 — Decisiones de la sesión
+
+### Convención sobre el expediente madre
+
+- **Archivo madre**: `docs/demanda/expediente-fooday-vs-manas.md` (~112KB, ~3200 líneas, 23 capítulos + manual de interrogatorio)
+- **Permiso de edición**: **Solo el usuario humano** puede modificar este archivo.
+- **Acceso por agentes**: Read-only. Si el agente tiene propuestas, debe generar un documento paralelo en el mismo directorio con sufijo identificatorio (ej: `*.propuesta-ia.md`, `*.borrador-ia.md`).
+- **Razón**: El madre es el "documento definitivo" del expediente; los agentes solo asisten, nunca sobreescriben.
+
+### Estado del cuaderno NotebookLM (cuaderno principal del caso)
+
+- **ID local**: `caso-fooday-vs-manas-expedient`
+- **Name**: `Caso FOODAY vs MANAS — Expediente Principal`
+- **URL**: https://notebooklm.google.com/notebook/4510cc3a-c1c4-4140-a8ec-f80f184618ef
+- **Auth**: `notebooklm-mcp@2.0.0` + Chrome profile persistente en `C:\Users\David\AppData\Local\notebooklm-mcp\Data\chrome_profile` + state.json en `C:\Users\David\AppData\Local\notebooklm-mcp\Data\browser_state\state.json` (49 cookies, 38 Google, 23 critical)
+- **Fuentes (8)**:
+  1. `CONT. LLOG. LOCAL SAZOR - MAÑAS 01.12.2018.pdf` (contrato arrendamiento matriz)
+  2. `SUB. CONT. MAÑAS - LOPEZ 01.12.2018.pdf` (subarrendamiento)
+  3. `Lau.pdf` (presupuesto instalaciones luz+agua)
+  4. `Email a enviar a la Gestoria.md`
+  5. `Texto.md`
+  6. `codigocivil.pdf`
+  7. `ma%C3%B1as.pdf` (correos de Mañas a López)
+  8. `ma%C3%B1as2.pdf` (correos adicionales de Mañas)
+
+### Hito procesal inminente
+
+- **Presentación de demanda**: **15/07/2026** (mañana desde la fecha actual 2026-07-15) en Juzgados de Figueres
+- **Objeto de la demanda**: Incumplimiento del goce pacífico (11 semanas sin llave) + devolución IVA cobrado de más desde 2018 + costas
+- **Cuantías en juego**:
+  - Saldo a favor FOODAY: 188,61 € (tras compensación de 379,73 € indemnización Art. 1554.3 CC vs. 374,74 € rentas pendientes)
+  - Deuda de renta discutida: 191,12 € (julio)
+  - Bombín reclamado por David: 180 €
+  - Pendiente auditoría retroactiva IVA desde 2018
+
+### Datos clave del caso (extraídos del cuaderno)
+
+- **Caso real**: `FOODAY PROJECT S.L. vs. David Mañas Esteban` (subarrendamiento)
+- **Local**: El Port de la Selva (Girona)
+- **Cadena contractual**: Sergio Rozas (SAZOR2018 CB) → David Mañas → Luis David López (FOODAY PROJECT S.L.)
+- **Disputas principales**:
+  1. Cambio unilateral del bombín (abril 2026) → 11 semanas sin llave
+  2. Facturación de suministros con posible doble IVA
+  3. Reclamación del coste del bombín (180 €) por parte de David
+  4. Amenaza de resolución del subarrendamiento por "morosidad"
+
+### Estado del cuaderno NotebookLM — Sesiones
+
+- Sesión activa más reciente: `f3af51da` (o posteriores); consultar `list_sessions` para ID exacto
+- Sesión `506533e6` dio respuesta exitosa a la cronología completa
+- Cuota free-tier Google: 50 queries/día (cuidado con overuse)
+
+### Aprendizajes técnicos de la sesión
+
+- **PowerShell vs Bash**: PowerShell interpreta `--` como operador unario; usar `Start-Process` o `&` con comillas simples.
+- **Chrome headless con --user-data-dir**: conflictúa con Chrome visible usando el mismo perfil. Para diagnóstico visual, cerrar todas las instancias primero.
+- **MCP notebooklm-mcp v2**: state.json (Playwright storageState) es donde guarda cookies/sesión, NO Chrome Default/Cookies. Para refrescar state.json tras login manual, usar Playwright launchPersistentContext + storageState().
+- **Verificación Google "Verify it's you"**: si aparece esa pantalla, el MCP no puede continuar; hay que completar el challenge en Chrome visible manualmente, y luego extraer el estado vía Playwright.
+
+### Pendiente operativo inmediato
+
+- [ ] Revisar el documento paralelo `docs/demanda/expediente-fooday-vs-manas.propuesta-ia.md` que el agente generó
+- [ ] Incorporar secciones útiles al madre `docs/demanda/expediente-fooday-vs-manas.md` (decisión humana)
+- [ ] Finalizar la auditoría retroactiva de IVA 2018-2025 (crítico para demanda del 15/07)
+- [ ] Verificar cuantificación de los 11 semanas de privación de uso (días exactos inicio/fin)
+
+---
+
 ## Git History
 
 | Commit | Tag | Descripción |
