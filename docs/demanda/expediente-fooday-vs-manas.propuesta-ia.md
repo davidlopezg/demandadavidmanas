@@ -73,7 +73,7 @@ La pretensión principal de FOODAY PROJECT S.L. consiste en obtener **declaraci�
 
 En particular, se interesa la declaración de:
 
-1. Que el cambio de bombín, decidido por la demandada en abril de 2026 sin autorización escrita del arrendador (Cláusula 10ª) ni comunicación previa ni inmediata a la actora, constituyó una **actuación contraria a las obligaciones contractuales**.
+1. Que el cambio de bombín, decidido por la demandada en abril de 2026 sin comunicación previa ni inmediata a la actora, constituyó una **actuación contraria a las restantes obligaciones contractuales del subarrendador** (con independencia de que su calificación jurídica formal —Clàusula 7ª vs Clàusula 10ª— se decida por el juzgado).
 2. Que la actora no pudo disfrutar del local en las condiciones pactadas durante el periodo acreditado por la prueba.
 3. Que el coste del bombín (aproximadamente 180 € según manifestación de la propia demandada, sin factura documentada) **no resulta imputable** a la actora.
 4. Que las facturas de electricidad en las que se haya repercutido un IVA superior al que corresponda deben ser objeto de **regularización** mediante la emisión de facturas rectificativas y la devolución o compensación de lo indebidamente percibido.
@@ -261,7 +261,7 @@ A título informativo, el procedimiento que se tramitará ante el Juzgado de Pri
 | Silvia Garcia Ferrando | Co-representante de SAZOR2018 CB |
 | Josep Carbonés Cané | Administrador de la Agència Port de la Selva |
 | Cecília Esteban i Costa | Persona de contacto operativo en la gestoría |
-| Cristóbal Rodríguez Hernández | Emisor de un presupuesto de 2.401,85 € por obras en el local (Obres del Port) |
+| **Cristóbal Rodríguez Hernández** | De la empresa **Obres del Port**, emisor de un presupuesto de **2.401,85 €** por **"quitar la puerta metálica y remolinar montantes"** del local. Su intervención documenta que el sistema de acceso al local fue objeto de obras expresamente previstas en la puesta a punto inicial. |
 | Jose Bello Viña | Emisor de un presupuesto de 930 € por techo registrable |
 | "Victor" | [⚠️ CONTRADICCIÓN MCP] — pendiente de verificación manual del PDF `ma%C3%B1as2.pdf` |
 
@@ -350,7 +350,7 @@ Transcurrido el plazo concedido sin respuesta sustantiva por la parte demandada,
 
 ## 5.7 Obras y modificaciones
 **Clàusula 10ª (Contrato matriz):** *"Tampoc podrà l'arrendatari, sense el permís exprés per escrit de l'arrendador, realitzar en el local cap tipus d'obres o modificacions..."* [HECHO, `[NL-5]`]
-- **Relevancia potencial:** exigiría, en su caso, autorización escrita del arrendador (SAZOR) para cualquier obra o modificación.
+- **Relevancia potencial:** la cláusula prohíbe "obres o modificaciones" sin autorización escrita del arrendador. **La subsunción de una actuación concreta en el concepto de "obra o modificación" es una cuestión jurídica que el juzgador deberá resolver** y sobre la que el expediente no prejuzga.
 
 ## 5.8 Resolución por impago
 **Clàusula 23ª (Contrato matriz):** *"En cas d'impagament superior a tres mensualitats de la renda pactada, el present contracte d'arrendament quedarà automàticament rescindit i resolt..."* [HECHO, `[NL-6]`]
@@ -377,7 +377,7 @@ Transcurrido el plazo concedido sin respuesta sustantiva por la parte demandada,
 |---|---|---|
 | **01/12/2018** | Firma del contrato de arrendamiento entre SAZOR2018 CB y David Mañas (duración 10 años, vencimiento 30/11/2028). | [HECHO, `[NL-1][NL-2]`] |
 | **01/12/2018** | Firma del contrato de subarrendamiento entre David Mañas y FOODAY PROJECT S.L. sobre el 50% del local. | [HECHO, `[NL-3][NL-4]`] |
-| **02/12/2018** | Presupuesto de Instal·lacions David por 1.949,66 € (sin IVA), incluyendo electricidad y fontanería. | [HECHO parcial, `[NL-5]`] |
+| **02/12/2018** | Presupuesto de Instal·lacions David (David Mañas) por **1.949,66 €** (sin IVA) para electricidad y fontanería; presupuesto de Obres del Port (Cristóbal Rodríguez Hernández) por **2.401,85 €** para trabajos en la puerta metálica y montantes del local. Ambos presupuestos se integran en los anexos del contrato de arrendamiento matriz. | [HECHO, identificación MCP] |
 | **02/01/2019** | Transferencia CaixaBank de 600,00 € a favor de INCASOL en concepto de fianza. | [HECHO, identificación MCP] |
 | 2018–2026 | La facturación de suministros se realizó con periodicidad **trimestral**, en lugar de la prevista en la Clàusula 4ª del contrato matriz (mensual, primeros cinco días). | [HECHO parcial, `[NL-14]`] |
 | 2018–2026 | La actora considera que las facturas de electricidad habrían contenido un doble IVA. Cuantificación total acumulada: [DND]. | [HECHO parcial, `[NL-16]`] |
@@ -469,13 +469,48 @@ Transcurrido el plazo concedido sin respuesta sustantiva por la parte demandada,
 | David tenía copia de la llave destinada a FOODAY. | `[NL-8]` |
 | Limitación horaria del acceso al local. | `[NL-8][NL-19]` |
 | La factura del bombín ascendería a aproximadamente 180 €; número exacto de la factura [DND]. | `[NL-8]` |
+| El sistema de acceso al local fue objeto de obras expresamente previstas en la puesta a punto inicial (presupuestos de Instal·lacions David y de Obres del Port sobre puerta metálica y montantes). | §6.1 |
 
-**Marco normativo aplicable:**
-- Clàusula 10ª del contrato matriz.
-- Clàusula 7ª del contrato matriz.
-- Arts. 1258 y 1554.3 del Código Civil.
+### 7.1.1 Marco normativo aplicable
 
-> [VALORACIÓN] La subsunción de los hechos anteriores en una u otra cláusula es una cuestión que el juzgador deberá resolver.
+Son potencialmente aplicables al caso las siguientes cláusulas y preceptos:
+
+- **Clàusula 7ª del contrato matriz** (reparaciones a cargo del arrendatario).
+- **Clàusula 10ª del contrato matriz** (prohibición de "obres o modificaciones" sin autorización escrita del arrendador).
+- **Art. 1258 CC** (buena fe contractual).
+- **Art. 1554.3 CC** (goce pacífico del inmueble).
+- **Art. 1555 CC** (responsabilidad del arrendador por actos propios).
+
+> **[VALORACIÓN — cuestión principal]** Si la sustitución del bombín constituye una "reparación de mantenimiento" comprendida en la Clàusula 7ª, o si, por el contrario, excede de dicho concepto y queda subsumida en la prohibición de "obras o modificaciones" de la Clàusula 10ª, es una **cuestión jurídica que el juzgador deberá resolver** y sobre la que el expediente no prejuzga.
+
+### 7.1.2 Elemento interpretativo sobre el sistema de acceso
+
+La documentación contractual refleja que el sistema de acceso al local fue objeto de obras expresamente previstas en la puesta a punto inicial:
+
+- El **presupuesto de Instal·lacions David (02/12/2018, 1.949,66 €)** incluyó, entre otras partidas, instalaciones de electricidad y fontanería necesarias para habilitar el acceso y el uso del local.
+- El **presupuesto de Obres del Port (Cristóbal Rodríguez Hernández) por 2.401,85 €** se refirió expresamente a **"quitar la puerta metálica y remolinar montantes"**, es decir, a la manipulación de la puerta de acceso físico al local.
+
+Estas circunstancias son **susceptibles de ser consideradas como un elemento interpretativo** de la relevancia que el contrato reconoce al sistema de acceso al local — con independencia de que la sustitución del bombín constituya, en sí misma, una "reparación" o una "modificación". El dato relevante, a estos efectos, es que el contrato **previó expresamente obras relativas al acceso físico** como parte de la regulación inicial del local.
+
+> **Importante:** este elemento interpretativo **no equivale** a una autorización para cualquier modificación posterior del sistema de acceso. Su alcance se limita a poner de relieve que el acceso físico al local formaba parte de la regulación contractual específica.
+
+### 7.1.3 Estructura argumental de la actora (independiente de la calificación)
+
+La parte actora estructura su argumentación de modo que **no quede supeditada** al debate sobre la calificación del cambio del bombín como reparación (Clàusula 7ª) o modificación (Clàusula 10ª). Concretamente:
+
+- **Tesis principal (independiente de la calificación):** Con independencia de la calificación que el juzgador otorgue a la sustitución del bombín, el elemento determinante del litigio son **las consecuencias que dicha actuación produjo sobre el acceso al local y el derecho al goce pacífico del inmueble**. Tales consecuencias derivan de obligaciones contractuales que operan **con independencia** de si el cambio era una reparación o una modificación.
+
+- **Tesis subsidiaria (para el caso de que el cambio sea calificado como modificación):** Si el juzgado entendiera que la sustitución del bombín excedía del concepto de mera reparación y afectaba al sistema de acceso al local, deberá valorar igualmente la posible aplicación de la Clàusula 10ª del contrato.
+
+### 7.1.4 Cuestiones pendientes de valoración judicial
+
+En el marco de la estructura argumental descrita:
+
+1. Si la sustitución del bombín es una "reparación de mantenimiento" (Clàusula 7ª) o una "obra o modificación" (Clàusula 10ª).
+2. Si la manifestación del demandado sobre "presses i nervis" es susceptible de fundamentar una urgencia objetiva en la ejecución, con independencia de la calificación anterior.
+3. Si la ejecución material del cambio (comunicación, entrega de llave, acceso efectivo) fue **proporcional** y respetuosa con las restantes obligaciones contractuales del subarrendador.
+4. Si la limitación horaria documentada es compatible con el derecho al goce pacífico del inmueble (Art. 1554.3 CC).
+5. Si el coste del bombín debe ser asumido por la actora en cualquiera de los escenarios calificatorios.
 
 ## 7.2 Privación del uso del local
 
@@ -557,20 +592,48 @@ La íntegra satisfacción de la renta tiene una doble relevancia procesal:
 
 > Esta sección NO pre-juzga la aplicación de cada norma al caso. Limita su contenido a (i) enunciar el marco normativo, (ii) exponer el fundamento documental disponible para cada eventual alegación.
 
-## 8.1 Cambio del bombín
+## 8.1 Cambio del bombín — análisis jurídico
 
-### Marco normativo
-- Clàusula 10ª matriz (prohibición de "obras o modificaciones" sin autorización escrita).
+### 8.1.1 Marco normativo potencialmente aplicable
+
+- Clàusula 10ª matriz (prohibición de "obres o modificaciones" sin autorización escrita).
 - Clàusula 7ª matriz (reparaciones a cargo del arrendatario).
-- Art. 1258 CC (buena fe).
-- Art. 1554.3 CC (goce pacífico).
+- Art. 1258 CC (buena fe contractual).
+- Art. 1554.3 CC (goce pacífico del inmueble).
 - Art. 1555 CC (responsabilidad del arrendador por actos propios).
 
-### Cuestiones que el juzgador deberá valorar
-1. Si el cambio del bombín constituye una "reparación de mantenimiento" (Clàusula 7ª) o una "obra o modificación" (Clàusula 10ª).
-2. Si la ausencia de autorización escrita determina, en su caso, la aplicación de la Clàusula 10ª.
-3. Si la manifestación del demandado "por prisas y nervios" es susceptible de fundamentar una urgencia objetiva.
-4. Si la limitación horaria documentada es compatible con el derecho al goce pacífico (Art. 1554.3 CC).
+### 8.1.2 Estructura argumental de la actora
+
+> **La actora no depende del resultado del debate sobre la calificación del cambio del bombín** (Clàusula 7ª vs Clàusula 10ª). Su posición se articula en dos planos, ambos independientes de dicha calificación:
+
+**A) Plano principal — consecuencias de la ejecución sobre el acceso y el goce pacífico (independiente de la calificación)**
+
+Con independencia de que la sustitución del bombín sea calificada como reparación de mantenimiento (Clàusula 7ª) o como obra o modificación (Clàusula 10ª), el subarrendador venía obligado a:
+
+- Comunicar previamente cualquier cambio material en el sistema de acceso.
+- Garantizar el acceso efectivo al local mediante la entrega de la copia de la llave de la actora.
+- Asegurar la compatibilidad entre la ejecución del cambio y el derecho al goce pacífico del local (Art. 1554.3 CC).
+- Actuar con la diligencia y buena fe que el ordenamiento impone a todo contratante (Art. 1258 CC).
+
+La documentada ausencia de comunicación previa, la tenencia prolongada de la copia de la llave, el condicionamiento del acceso al horario de oficina y la invocación por el propio demandado de haber actuado "por prisas y nervios" configuran, en cualquier escenario calificatorio, un incumplimiento de las obligaciones que operan con independencia de la calificación del cambio.
+
+**B) Plano subsidiario — para el caso de que el cambio sea calificado como modificación o obra (Clàusula 10ª)**
+
+Si el juzgado entendiera que la sustitución del bombín excedía del concepto de mera reparación y afectaba al sistema de acceso al local, deberá valorar igualmente:
+
+- La ausencia de solicitud de autorización escrita al arrendador.
+- La comunicación expresa del presupuesto Instal·lacions David y del presupuesto Obres del Port como elementos que ilustran la relevancia contractual del acceso físico.
+- La aplicación, en su caso, de la Clàusula 10ª del contrato matriz.
+
+### 8.1.3 Cuestiones que el juzgador deberá valorar
+
+> Las cuestiones se formulan conforme a la estructura argumental descrita:
+
+1. Si la sustitución del bombín constituye una "reparación de mantenimiento" (Clàusula 7ª) o una "obra o modificación" (Clàusula 10ª).
+2. Subsidiariamente a lo anterior y con independencia de la calificación, si la ejecución material del cambio respetó las obligaciones de comunicación, entrega de llave y goce pacífico.
+3. Si la invocación de "presses i nervis" es susceptible de fundamentar una urgencia objetiva de ejecución.
+4. Si la limitación horaria documentada es compatible con el goce pacífico del inmueble (Art. 1554.3 CC).
+5. Si el coste del bombín debe ser asumido por la actora en cualquiera de los escenarios calificatorios posibles.
 
 ## 8.2 Indemnización por privación de uso (subsidiaria)
 
@@ -864,7 +927,7 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 
 **Base documental (favorable a la alegación):** mensajes de abril de 2026.
 **Base documental (favorable a la refutación):** los mensajes son posteriores al descubrimiento del cambio; ausencia de renuncia escrita expresa.
-**Marco normativo implicado:** Clàusula 10ª; Art. 1258 CC.
+**Marco normativo implicado:** las obligaciones contractuales de comunicación, entrega de llave y buena fe (con independencia de la calificación de la actuación como reparación o modificación); Art. 1258 CC.
 
 ## 15.3 Alegación: "El cambio se debió a razones de seguridad"
 
@@ -887,8 +950,8 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 ## 15.6 Alegación: "El bombín debía ser abonado por la actora"
 
 **Base documental (favorable a la alegación):** correo del 3 de julio de 2026.
-**Base documental (favorable a la refutación):** correo posterior que ofrece no cobrarlo.
-**Marco normativo implicado:** Clàusula 10ª; principio de causación.
+**Base documental (favorable a la refutación):** correo posterior que ofrece no cobrarlo; ausencia de autorización escrita del arrendador para la sustitución; firma del presupuestos Obres del Port (puerta metálica) como elemento interpretativo del alcance contractual del sistema de acceso.
+**Marco normativo implicado:** Clàusula 10ª (si se califica como modificación) o principio de causación y buena fe (Clàusula 7ª/Art. 1258 CC). Conclusión de la actora: el coste no es imputable a la actora en cualquiera de los escenarios.
 
 ## 15.7 Alegación: "Las facturas son correctas"
 
@@ -932,14 +995,23 @@ La contestación formal a la demanda podrá incorporar alegaciones no previstas 
 
 > Esta sección ha sido reorientada en v3 con el fin de situar la **declaración de incumplimiento** como pretensión principal. La indemnización por privación de uso y la compensación se formulan como pretensiones **subsidiarias y dependientes**, no como centros del procedimiento.
 
-## 17.1 Pretensión principal (declarativa)
+## 17.1 Pretensión principal — declarativa, con estructura argumental independiente de la calificación del bombín
 
-Se solicita al juzgado que declare:
+> **Texto recomendado para traslado al Suplico de la demanda:**
 
-1. Que el cambio unilateral del bombín de acceso al local, decidido por la parte demandada en abril de 2026 sin autorización escrita del arrendador (Clàusula 10ª) ni comunicación previa ni inmediata a la actora, constituyó una **actuación contraria a las obligaciones contractuales**.
-2. Que la actora no pudo disfrutar del local en las condiciones pactadas durante el periodo que se acredite.
-3. Que el coste del bombín (aproximadamente 180 € según manifestación de la propia demandada) **no resulta imputable** a la actora.
-4. Que las facturas de electricidad en las que se haya repercutido un IVA superior al que corresponda deben ser objeto de **regularización**.
+> "La parte demandada sostiene que el cambio del bombín constituye una reparación comprendida en la Clàusula 7ª del contrato matriz. La parte actora considera que, con independencia de la calificación jurídica que finalmente otorgue el juzgado a dicha actuación, el elemento determinante del litigio no es únicamente la sustitución del bombín, sino las consecuencias que dicha actuación produjo sobre el acceso al local y el derecho al goce pacífico del inmueble. Subsidiariamente, si el juzgado entendiera que la sustitución del bombín excedía del concepto de mera reparación y afectaba al sistema de acceso al local, deberá valorar igualmente la posible aplicación de la Clàusula 10ª del contrato."
+
+A partir de esta posición general, se solicita al juzgado que declare:
+
+1. **Declaración principal (independiente de la calificación):** Que la actora **no pudo disfrutar del local en las condiciones pactadas**, durante el periodo que se acredite, como consecuencia de la sustitución del bombín, de la falta de comunicación previa, de la retención de la copia de la llave y del condicionamiento del acceso al horario de oficina.
+
+2. **Declaración subsidiaria (para el caso de que el cambio se califique como modificación u obra):** Que el cambio del bombín **constituyó una actuación contraria a las obligaciones contractuales**, conforme a la Clàusula 10ª del contrato matriz y a los Arts. 1258 y 1554.3 del Código Civil.
+
+3. **Declaración independiente:** Que el coste del bombín (aproximadamente 180 € según manifestación de la propia demandada) **no resulta imputable** a la actora.
+
+4. **Declaración independiente:** Que las facturas de electricidad en las que se haya repercutido un IVA superior al que corresponda deben ser objeto de **regularización**.
+
+> **Observación procesal:** las declaraciones 1, 3 y 4 se formulan al margen de la calificación del cambio. Únicamente la declaración 2 depende de que el juzgado entienda que el cambio constituía una modificación u obra. Esta estructura garantiza que la demanda **no quede sin efecto** por el hecho de que el cambio sea finalmente calificado como reparación.
 
 ## 17.2 Pretensión subsidiaria (liquidación económica)
 
@@ -984,9 +1056,9 @@ En el Suplico no se solicitará la compensación como pretensión autónoma: la 
 
 | Objetivo | Base documental | Norma potencialmente aplicable |
 |---|---|---|
-| Reconocimiento del cambio del bombín como actuación contraria a las obligaciones contractuales | Reconocimiento del propio demandado `[NL-8]`; admisión de falta de comunicación previa | Clàusula 10ª; Arts. 1258 y 1554.3 CC |
+| Reconocimiento del cambio del bombín como actuación contraria a las obligaciones contractuales (con independencia de la calificación Clàusula 7ª vs 10ª) | Reconocimiento del propio demandado `[NL-8]`; admisión de falta de comunicación previa; limitación horaria documentada `[NL-8][NL-19]` | Arts. 1258 y 1554.3 CC (con carácter principal); subsidiaria aplicación de Clàusula 10ª |
 | Indemnización por privación de uso (subsidiaria) | "Si al mes de juliol no tens la nova clau" `[NL-6]`; horario limitado `[NL-8][NL-19]` | Art. 1554.3 CC; Art. 1101 CC |
-| No imputabilidad del coste del bombín | Correo del 3 de julio `[NL-8]`; correo de condonación `[NL-11]`; ausencia de autorización escrita | Clàusula 10ª; principio de causación; Art. 1258 CC |
+| No imputabilidad del coste del bombín (con independencia de la calificación Clàusula 7ª vs 10ª) | Correo del 3 de julio `[NL-8]`; correo de condonación `[NL-11]`; ausencia de autorización escrita del arrendador | Clàusula 10ª (si se califica como modificación) y, en todo caso, principio de causación; Art. 1258 CC |
 | Regularización de las facturas de electricidad | Identificación de doble IVA; rechazo de facturas Serie F `[NL-16]` | Ley 37/1992 IVA; RD 1619/2012 |
 | Compensación (subsidiaria y solo si se estima indemnización) | Cifras comunicadas en escritos de la actora (no admitidas por la demandada) | Arts. 1195 y 1202 CC |
 | Archivo del procedimiento (no复议) — buena fe procesal | §4, §7B | — |
@@ -1053,12 +1125,27 @@ SEGUNDO.- Fianza.
 Con fecha 2 de enero de 2019, la actora constituyó fianza de 600 €
 mediante transferencia desde CaixaBank a favor de INCASOL.
 
-TERCERO.- Cambio del bombín de acceso.
+TERCERO.- Relevancia contractual del sistema de acceso.
+La documentación contractual refleja que el sistema de acceso al local
+fue objeto de obras expresamente previstas en la puesta a punto inicial
+del contrato: el presupuesto de Instal·lacions David (David Mañas,
+02/12/2018, 1.949,66 € sin IVA) incluía, entre otras, instalaciones
+eléctricas y de fontanería, y el presupuesto de Obres del Port
+(Cristóbal Rodríguez Hernández, 2.401,85 €) se refería expresamente a
+"quitar la puerta metálica y remolinar montantes", es decir, al sistema
+de acceso físico al local.
+
+Esta circunstancia pone de relieve que, con independencia de la
+calificación que en su caso proceda sobre la posterior sustitución del
+bombín, el acceso físico al local formaba parte de la regulación
+contractual específica desde la celebración del contrato.
+
+CUARTO.- Cambio del bombín de acceso.
 En abril de 2026 (día exacto pendiente de concreción), el Sr. Mañas
 sustituyó el bombín de acceso al local, sin constancia documental de
 comunicación previa ni inmediata a la actora.
 
-CUARTO.- Reconocimiento expreso del demandado.
+QUINTO.- Reconocimiento expreso del demandado.
 Con fecha 3 de julio de 2026, a las 18:32, el Sr. Mañas remitió a la
 actora un correo electrónico en el que expresamente reconoce la
 realización del cambio:
@@ -1068,13 +1155,13 @@ realización del cambio:
 En el mismo correo manifiesta tener en su poder la copia de la llave de
 la actora y limitar la entrega a horario de oficina.
 
-QUINTO.- Repercusión del coste del bombín.
+SEXTO.- Repercusión del coste del bombín.
 El Sr. Mañas reclamó en el mismo correo el pago del 50% del coste del
 bombín (aproximadamente 180 €, sin factura documentada al efecto) y
 manifestó posteriormente: "Si vols, el dilluns liquides el que em deus i
 deixem córrer el sots-arrendament (en aquest cas no et cobraré el bombí)".
 
-SEXTO.- Conducta procesal de la actora antes de demandar.
+SÉPTIMO.- Conducta procesal de la actora antes de demandar.
 La actora, con carácter previo a la interposición de la presente demanda,
 agotó las siguientes fases:
 (i)  comunicación amistosa inicial tras el descubrimiento del cambio;
@@ -1088,23 +1175,23 @@ agotó las siguientes fases:
 (vii) remisión de burofax el 6 de julio de 2026 concediendo un plazo de 7
       días naturales para solución amistosa.
 
-SÉPTIMO.- Pago íntegro de la renta.
+OCTAVO.- Pago íntegro de la renta.
 Con carácter previo a la presentación de esta demanda, la actora abonó
 íntegramente la renta pendiente, eliminando cualquier causa de desahucio al
 amparo de la Clàusula 23ª del contrato matriz.
 
-OCTAVO.- Notificación a la Gestoría y propuesta de compensación.
+NOVENO.- Notificación a la Gestoría y propuesta de compensación.
 Con fecha 7 de julio de 2026, la actora notificó a la Gestoría (Agència
 Port de la Selva – Centre de Serveis) la propuesta de compensación, la
 paralización del pago de suministros y la solicitud de auditoría
 retroactiva desde 2018.
 
-NOVENO.- Periodo acreditado de privación de uso.
+DÉCIMO.- Periodo acreditado de privación de uso.
 Por la documentación disponible, consta que desde abril de 2026 hasta al
 menos el 3 de julio de 2026 la actora permaneció sin acceso libre al
 local. La duración exacta se deja a la prueba que pueda practicarse.
 
-DÉCIMO.- Doble imposición de IVA en electricidad.
+UNDÉCIMO.- Doble imposición de IVA en electricidad.
 La actora ha detectado una posible doble imposición de IVA en las
 facturas de electricidad. La cuantificación total del IVA repercutido
 en exceso desde 2018 se interesa que se determine en ejecución de
@@ -1119,9 +1206,10 @@ I. Competencia y jurisdicción (Arts. 36, 45, 46 y 51 LEC).
 II. Capacidad procesal (Art. 6 LEC).
 III. Legitimación (Art. 10 LEC).
 IV. Fondo:
-   IV.1. Cambio del bombín — Arts. 1258 y 1554.3 CC; Clàusulas 7ª y 10ª.
+   IV.1. Cambio del bombín — estructura argumental con tesis principal
+         (independiente de la calificación) y subsidiaria (Clàusula 10ª)
    IV.2. Indemnización por privación de uso — Art. 1554.3 CC.
-   IV.3. No imputabilidad del coste del bombín — Clàusula 10ª.
+   IV.3. No imputabilidad del coste del bombín.
    IV.4. Compensación (Arts. 1195 y 1202 CC) — aplicación subsidiaria.
    IV.5. Regularización de facturas de electricidad — Ley 37/1992; RD 1619/2012.
 V. Costas (Art. 394 LEC).
@@ -1133,21 +1221,42 @@ SUPLICO AL JUZGADO
 Que, previos los trámites legales oportunos, ESTIME la presente demanda
 y:
 
-— PRETENSIONES DECLARATIVAS (principales) —
+— PRETENSIONES DECLARATIVAS —
 
-1. DECLARE que el cambio unilateral del bombín de acceso al local
-   llevado a cabo por el demandado en abril de 2026 constituyó una
+La actora estructura sus pretensiones declarativas del siguiente modo:
+
+   "La parte demandada sostiene que el cambio del bombín constituye una
+   reparación comprendida en la Clàusula 7ª del contrato matriz. La parte
+   actora considera que, con independencia de la calificación jurídica
+   que finalmente otorgue el juzgado a dicha actuación, el elemento
+   determinante del litigio no es únicamente la sustitución del bombín,
+   sino las consecuencias que dicha actuación produjo sobre el acceso
+   al local y el derecho al goce pacífico del inmueble. Subsidiariamente,
+   si el juzgado entendiera que la sustitución del bombín excedía del
+   concepto de mera reparación y afectaba al sistema de acceso al local,
+   deberá valorar igualmente la posible aplicación de la Clàusula 10ª del
+   contrato."
+
+Conforme a lo anterior, se solicita al juzgado que declare:
+
+1. **DECLARE que la actora no pudo disfrutar del local en las condiciones
+   pactadas durante el periodo que se acredite**, como consecuencia de la
+   sustitución del bombín, de la falta de comunicación previa, de la
+   retención de la copia de la llave y del condicionamiento del acceso a
+   horario de oficina, todo ello con independencia de la calificación
+   jurídica del cambio.
+
+2. **SUBSIDIARIAMENTE**, si el juzgado entendiera que la sustitución del
+   bombín excedía del concepto de mera reparación y afectaba al sistema
+   de acceso al local, DECLARE que dicha sustitución constituyó una
    actuación contraria a las obligaciones contractuales, conforme a la
    Clàusula 10ª del contrato matriz y a los Arts. 1258 y 1554.3 del
    Código Civil.
 
-2. DECLARE que la actora no pudo disfrutar del local en las condiciones
-   pactadas durante el periodo que se acredite por la prueba.
-
-3. DECLARE que el coste del bombín (aproximadamente 180 € según
+3. **DECLARE** que el coste del bombín (aproximadamente 180 € según
    manifestación del demandado) no resulta imputable a la actora.
 
-4. DECLARE que las facturas de electricidad en las que se haya
+4. **DECLARE** que las facturas de electricidad en las que se haya
    repercutido un IVA superior al que corresponde deben ser objeto de
    regularización mediante facturas rectificativas y devolución o
    compensación de lo indebidamente cobrado desde 2018.
@@ -1293,23 +1402,42 @@ Fdo.: Luis David López Gamero
 
 ---
 
-# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 3 (v3)
+# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 4 (v4)
 
 > Por la propia naturaleza perito-documental del documento, la autovaloración se limita a una descripción metodológica.
 
-| Cambio aplicado | Tratamiento en v3 |
+## Cambios acumulados hasta v4
+
+| Versión | Núcleo del cambio |
 |---|---|
-| **§0 Objeto del procedimiento** | Incorporado al inicio. Pretensión declarativa principal y subsidiaria liquidación con orden lógico explícito. |
-| **§1 Sobre el "por qué"** | Incorporado. Mensaje: "No se demanda por 379 €, se demanda para que el juzgado declare el incumplimiento y liquide las consecuencias económicas." |
-| **§4 Conducta procesal de la actora antes de la demanda** | Incorporado. Cronología de 8 fases: comunicación amistosa, explicación, llave, documentación, regularización contable, pago, burofax, demanda. |
-| **§7B Pago íntegro de la renta (sección propia)** | Incorporado. Bloque dedicado, relevancia procesal explicada, pendientes de aportación documentadas. |
-| **§17 Pretensiones** | Reorientadas. La indemnización y la compensación pasan a subsidiaria. La declaración es principal. |
-| **§20 Suplico de la demanda** | Reformulado en dos bloques (declarativos / liquidación). |
-| **Compensación** | Rebajada a "instrumento de cierre", ya no centerpiece. |
-| **§18 Matriz / §23 Riesgos / §15 Alegaciones** | Mantenidas pero con tono pericial. |
+| **v1** | Tono combativo, mezclaba hechos con conclusiones jurídicas. |
+| **v2** | Adopción del enfoque perito documental. Eliminación de probabilidades. Indemnización como estimación subsidiaria. |
+| **v3** | "Objeto del procedimiento" al inicio. Pretensión declarativa principal + subsidiaria liquidación. Compensación como instrumento de cierre. "Conducta procesal previa" cronológica. "Pago íntegro de la renta" como sección propia. |
+| **v4** | La estructura argumental de la actora **no depende del resultado del debate** sobre si el cambio del bombín es una reparación (Clàusula 7ª) o una modificación (Clàusula 10ª). |
+
+## Cambios específicos introducidos en v4
+
+| Localización | Cambio |
+|---|---|
+| **§0.1 Pretensión principal** | Reformulada para eliminar la presuposición de aplicabilidad de la Clàusula 10ª. |
+| **§3.6 Terceros** | Especificado que el presupuesto Obres del Port (Cristóbal Rodríguez Hernández, 2.401,85 €) se refería expresamente a la **"puerta metálica y montantes"** del local. |
+| **§5.7 Contrato — Obras y modificaciones** | Eliminada la afirmación de que la Clàusula 10ª "exigiría" autorización escrita: ahora se indica que la subsunción es una cuestión jurídica pendiente. |
+| **§6.1 Cronología** | Añadidos los dos presupuestos (Instal·lacions David + Obres del Port) en la entrada del 02/12/2018. |
+| **§7.1 Cambio del bombín** | Estructura en cuatro sub-apartados: hechos acreditados, marco normativo aplicable, **elemento interpretativo sobre el sistema de acceso** (presupuesto Obres del Port — puerta metálica), **estructura argumental** (tesis principal independiente de la calificación / tesis subsidiaria para el caso modificación) y cuestiones pendientes. |
+| **§8.1 Análisis jurídico** | Reestructurado en planos A (independiente de la calificación, basado en Arts. 1258 y 1554.3 CC) y B (subsidiario, para el caso de que se califique como modificación). |
+| **§15.6 Alegación "El bombín debía ser abonado"** | Marco normativo reformulado para incluir ambos escenarios calificatorios. |
+| **§17.1 Pretensiones — principal** | Redactada con estructura: (i) posición general declarada, (ii) declaración 1 independiente de la calificación, (iii) declaración 2 subsidiaria, (iv) declaraciones 3 y 4 independientes. |
+| **§18 Matriz de objetivos** | Reformulada la base normativa del primer objetivo para reflejar la dualidad Clàusula 7ª/10ª. |
+| **§20 Plantilla — HECHO TERCERO (nuevo)** | Nuevo hecho sobre la relevancia contractual del sistema de acceso. |
+| **§20 Plantilla — SUPLICO DECLARATIVAS (reformulado)** | Bloque de declaraciones ahora estructurado con posición general declarada y declaración subsidiaria expresa. |
+| **§20 Plantilla — Numeración HECHOS** | Corregida duplicación SEXTO/SEXTO; ahora único SEXTO (repercusión) + SÉPTIMO (conducta procesal previa) + OCTAVO (pago) + NOVENO (Gestoría) + DÉCIMO (privación) + UNDÉCIMO (IVA). |
+
+## Mensaje procesal del v4
+
+> La estrategia procesal del v4 se articula sobre la siguiente idea central, que el expediente transmite con claridad: **incluso si el juzgado considerase que el cambio del bombín constituyó una "mera reparación" comprendida en la Clàusula 7ª, la actora tiene igualmente una pretensión que puede prosperar**, basada en las restantes obligaciones contractuales del subarrendador (comunicación previa, entrega de llave, acceso efectivo, goce pacífico, buena fe). De este modo, la demanda **no depende de ganar el debate sobre la calificación** del cambio, sino que mantiene su virtualidad sea cual fuere el pronunciamiento del juzgado sobre la Clàusula 7ª frente a la Clàusula 10ª.
 
 ---
 
-*Documento v3 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, como aplicación de la segunda auditoría metodológica del usuario.*
+*Documento v4 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, como aplicación de la tercera auditoría metodológica del usuario.*
 
 *Convención del proyecto:* este archivo es paralelo al madre `expediente-fooday-vs-manas.md`, que solo el usuario modifica. Los agentes escriben en `*.propuesta-ia.md` y análogos.
