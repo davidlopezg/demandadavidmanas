@@ -135,7 +135,7 @@ El abogado de Mañas sigue este **manual de destrucción**:
 > **"Pero si el bombín se rompió y hubo que cambiarlo, ¿no es lógico pagar el 50%?"**
 
 🟡 **Tu respuesta:**
-> "El problema no es pagar o no pagar. Es que **David decidió solo**, sin consultarme, sin avisarme, y encima me dejó sin acceso durante meses. Si él hubiera llamado y dicho 'el bombín está roto, lo cambiamos y pagamos a medias', otra cosa. Pero no: cambió la cerradura, no me dio la llave, y cuando le reclamé me dijo 'ahora págame la mitad'. La forma no es la correcta."
+> "El problema no es pagar o no pagar. Es que **David decidió solo**, sin consultarme, sin avisarme, y encima me dejó sin acceso durante meses. Si él hubiera llamado y dicho 'el bombín está roto, lo cambiamos, **cuesta X y pagamos a medias**', otra cosa. Pero no: cambió la cerradura, no me informó del coste, no me dio la llave, y cuando le reclamé me dijo 'ahora págame la mitad'. La forma no es la correcta."
 
 ---
 
