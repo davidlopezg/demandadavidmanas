@@ -67,7 +67,17 @@
 
 > **Esta sección se coloca deliberadamente al inicio del expediente** para que la finalidad del procedimiento quede identificada antes de cualquier análisis. Su redacción está pensada para que sea trasladable, en lo sustancial, al Suplico de la demanda.
 
-## 0.1 Pretensión principal (declarativa)
+## 0.1 Filosofía del procedimiento
+
+> La finalidad de este procedimiento no consiste en maximizar reclamaciones económicas ni en judicializar todas las discrepancias existentes entre las partes.
+>
+> El objeto principal consiste en que el Juzgado determine si determinadas actuaciones relacionadas con el acceso al local y la ejecución del contrato fueron conformes con las obligaciones contractuales asumidas.
+>
+> Únicamente una vez resuelta esa cuestión principal corresponderá determinar, en su caso, las consecuencias económicas derivadas de dicha decisión.
+
+> Esta filosofía condiciona la lectura de todo el expediente. Los hechos, la prueba y el análisis que siguen se organizan con la voluntad de situar ante el Juzgado los elementos necesarios para la valoración que le corresponde, sin sustituir esa valoración por afirmaciones conclusivas del propio expediente.
+
+## 0.2 Pretensión principal (declarativa)
 
 La pretensión principal de FOODAY PROJECT S.L. consiste en obtener **declaración judicial** de que el cambio unilateral del sistema de acceso al local llevado a cabo por la parte demandada, y la limitación del uso del local durante el periodo acreditado, constituyeron un **incumplimiento contractual** susceptible de ser calificado conforme a las cláusulas del contrato matriz (Cláusulas 7ª y 10ª) y a los artículos 1258 y 1554.3 del Código Civil.
 
@@ -80,7 +90,7 @@ En particular, se interesa la declaración de:
 
 > **Observación procesal:** estas declaraciones son la verdadera pretensión y **no dependen de la cuantificación económica**. Su obtención no exige acreditar el importe concreto de los daños.
 
-## 0.2 Pretensión subsidiaria (liquidación de consecuencias económicas)
+## 0.3 Pretensión subsidiaria (liquidación de consecuencias económicas)
 
 Subsidiariamente, y **únicamente para el supuesto de que el juzgador considere acreditado un perjuicio económico** derivado de la privación de uso acreditada, esta parte solicita:
 
@@ -89,7 +99,7 @@ Subsidiariamente, y **únicamente para el supuesto de que el juzgador considere 
 
 > **Observación procesal:** esta pretensión es **accesoria y dependiente** de la estimación de las declaraciones principales. Su articulación refleja una voluntad de la actora de que la determinación económica se efectúe con el rigor propio de la ejecución de sentencia y no como elemento central del procedimiento.
 
-## 0.3 Orden lógico del procedimiento (síntesis)
+## 0.4 Orden lógico del procedimiento (síntesis)
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -675,6 +685,7 @@ Estimación provisional de indemnización: 4,9315 €/día × 77 días =    379,
 ### Cuestiones que el juzgador deberá valorar
 1. Si la imputación del coste a FOODAY es ajustada a las cláusulas.
 2. Si las dos manifestaciones del demandado sobre el mismo concepto son compatibles.
+3. Si, con independencia de quién deba asumir económicamente el coste del bombín, la forma en que se ejecutó la sustitución respetó las obligaciones contractuales relativas al acceso y disfrute del inmueble.
 
 ## 8.5 Facturación de electricidad y doble IVA
 
@@ -777,10 +788,10 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | 1 | El contrato de subarrendamiento existe y fue firmado el 01/12/2018. | Contrato PDF `[NL-3][NL-4]` | [HECHO] |
 | 2 | El contrato está vinculado al plazo del arrendamiento matriz (10 años). | Estipulació 2 + Clàusula 3ª `[NL-3]` | [HECHO] |
 | 3 | El local se encuentra en El Port de la Selva. | §3.4 | [HECHO] |
-| 4 | David Mañas cambió el bombín de acceso en abril de 2026. | `[NL-6][NL-8]` | [HECHO] |
+| 4 | Conforme a la documentación disponible, el cambio del bombín de acceso tuvo lugar durante el mes de abril de 2026. | `[NL-6][NL-8]` | [HECHO] |
 | 5 | David Mañas justificó el cambio por "las prisas y los nervios". | `[NL-8]` | [HECHO — manifestación del demandado] |
 | 6 | David tenía copia de la llave destinada a FOODAY. | `[NL-8]` | [HECHO] |
-| 7 | El acceso al local quedó condicionado a horario de oficina. | `[NL-8][NL-19]` | [HECHO] |
+| 7 | El acceso al local quedó condicionado al horario de oficina, según la disponibilidad indicada por el demandado en sus comunicaciones. | `[NL-8][NL-19]` | [HECHO] |
 | 8 | David reclama 180 € por el bombín. | `[NL-8]` | [HECHO] |
 | 9 | David manifiesta que, si se rescinde el subarriendo, no cobrará el bombín. | `[NL-11]` | [HECHO] |
 | 10 | Se remitió burofax el 6 de julio de 2026. | `[NL-13][NL-14]` | [HECHO] |
@@ -1402,11 +1413,11 @@ Fdo.: Luis David López Gamero
 
 ---
 
-# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 4 (v4)
+# 📌 AUTOVALORACIÓN DE ESTA VERSIÓN 5 (v5)
 
 > Por la propia naturaleza perito-documental del documento, la autovaloración se limita a una descripción metodológica.
 
-## Cambios acumulados hasta v4
+## Cambios acumulados hasta v5
 
 | Versión | Núcleo del cambio |
 |---|---|
@@ -1414,30 +1425,25 @@ Fdo.: Luis David López Gamero
 | **v2** | Adopción del enfoque perito documental. Eliminación de probabilidades. Indemnización como estimación subsidiaria. |
 | **v3** | "Objeto del procedimiento" al inicio. Pretensión declarativa principal + subsidiaria liquidación. Compensación como instrumento de cierre. "Conducta procesal previa" cronológica. "Pago íntegro de la renta" como sección propia. |
 | **v4** | La estructura argumental de la actora **no depende del resultado del debate** sobre si el cambio del bombín es una reparación (Clàusula 7ª) o una modificación (Clàusula 10ª). |
+| **v5** | Incorporación de una "Filosofía del procedimiento" al inicio. Refinamientos finales de redacción para evitar precisiones no demostradas. |
 
-## Cambios específicos introducidos en v4
+## Cambios específicos introducidos en v5
 
 | Localización | Cambio |
 |---|---|
-| **§0.1 Pretensión principal** | Reformulada para eliminar la presuposición de aplicabilidad de la Clàusula 10ª. |
-| **§3.6 Terceros** | Especificado que el presupuesto Obres del Port (Cristóbal Rodríguez Hernández, 2.401,85 €) se refería expresamente a la **"puerta metálica y montantes"** del local. |
-| **§5.7 Contrato — Obras y modificaciones** | Eliminada la afirmación de que la Clàusula 10ª "exigiría" autorización escrita: ahora se indica que la subsunción es una cuestión jurídica pendiente. |
-| **§6.1 Cronología** | Añadidos los dos presupuestos (Instal·lacions David + Obres del Port) en la entrada del 02/12/2018. |
-| **§7.1 Cambio del bombín** | Estructura en cuatro sub-apartados: hechos acreditados, marco normativo aplicable, **elemento interpretativo sobre el sistema de acceso** (presupuesto Obres del Port — puerta metálica), **estructura argumental** (tesis principal independiente de la calificación / tesis subsidiaria para el caso modificación) y cuestiones pendientes. |
-| **§8.1 Análisis jurídico** | Reestructurado en planos A (independiente de la calificación, basado en Arts. 1258 y 1554.3 CC) y B (subsidiario, para el caso de que se califique como modificación). |
-| **§15.6 Alegación "El bombín debía ser abonado"** | Marco normativo reformulado para incluir ambos escenarios calificatorios. |
-| **§17.1 Pretensiones — principal** | Redactada con estructura: (i) posición general declarada, (ii) declaración 1 independiente de la calificación, (iii) declaración 2 subsidiaria, (iv) declaraciones 3 y 4 independientes. |
-| **§18 Matriz de objetivos** | Reformulada la base normativa del primer objetivo para reflejar la dualidad Clàusula 7ª/10ª. |
-| **§20 Plantilla — HECHO TERCERO (nuevo)** | Nuevo hecho sobre la relevancia contractual del sistema de acceso. |
-| **§20 Plantilla — SUPLICO DECLARATIVAS (reformulado)** | Bloque de declaraciones ahora estructurado con posición general declarada y declaración subsidiaria expresa. |
-| **§20 Plantilla — Numeración HECHOS** | Corregida duplicación SEXTO/SEXTO; ahora único SEXTO (repercusión) + SÉPTIMO (conducta procesal previa) + OCTAVO (pago) + NOVENO (Gestoría) + DÉCIMO (privación) + UNDÉCIMO (IVA). |
+| **§0.1 Filosofía del procedimiento (NUEVO)** | Incorporada como subsección de §0, inmediatamente antes de la pretensión principal. Texto: "La finalidad de este procedimiento no consiste en maximizar reclamaciones económicas ni en judicializar todas las discrepancias... El objeto principal consiste en que el Juzgado determine si determinadas actuaciones... fueron conformes con las obligaciones contractuales asumidas. Únicamente una vez resuelta esa cuestión principal corresponderá determinar, en su caso, las consecuencias económicas derivadas de dicha decisión." Renumerado: viejo §0.1 → §0.2; viejo §0.2 → §0.3; viejo §0.3 → §0.4. |
+| **§8.4 Coste del bombín — Cuestiones pendientes** | Añadido el punto 3: "Si, con independencia de quién deba asumir económicamente el coste del bombín, la forma en que se ejecutó la sustitución respetó las obligaciones contractuales relativas al acceso y disfrute del inmueble." |
+| **§10 Hechos acreditados #4** | Reformulada la formulación literal: de "David Mañas cambió el bombín de acceso en abril de 2026" a "Conforme a la documentación disponible, el cambio del bombín de acceso tuvo lugar durante el mes de abril de 2026." (matiz procesal: se evita aparentar precisión sobre el día exacto, del que no se tiene constancia documental.) |
+| **§10 Hechos acreditados #7** | Reformulada la formulación: de "El acceso al local quedó condicionado a horario de oficina" a "El acceso al local quedó condicionado al horario de oficina, **según la disponibilidad indicada por el demandado en sus comunicaciones**." (matiz procesal: la limitación es manifestada por el demandado, no inferida por la actora.) |
 
-## Mensaje procesal del v4
+## Mensaje procesal del v5
 
-> La estrategia procesal del v4 se articula sobre la siguiente idea central, que el expediente transmite con claridad: **incluso si el juzgado considerase que el cambio del bombín constituyó una "mera reparación" comprendida en la Clàusula 7ª, la actora tiene igualmente una pretensión que puede prosperar**, basada en las restantes obligaciones contractuales del subarrendador (comunicación previa, entrega de llave, acceso efectivo, goce pacífico, buena fe). De este modo, la demanda **no depende de ganar el debate sobre la calificación** del cambio, sino que mantiene su virtualidad sea cual fuere el pronunciamiento del juzgado sobre la Clàusula 7ª frente a la Clàusula 10ª.
+> Los refinamientos de redacción introducidos en v5 (Filosofía del procedimiento al inicio, formulaciones más matizadas en hechos acreditados, cuestión adicional sobre el coste del bombín) consolidan la línea metodológica que el expediente ha ido adoptando progresivamente: **hechos documentados; cuestiones a resolver por el juzgador; prudencia en las conclusiones; separación estricta entre prueba, calificación jurídica y pretensión**.
+>
+> Este documento está pensado para ser entregado a un abogado como base de trabajo, no como demanda definitiva. La distinción entre lo acreditado y lo discutido se ha extremado para que el profesional que lo reciba pueda identificar con claridad qué información permanece abierta, qué prueba sigue faltando y qué decisiones corresponden al Juzgado.
 
 ---
 
-*Documento v4 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, como aplicación de la tercera auditoría metodológica del usuario.*
+*Documento v5 generado por MiniMax-M3 (pi coding agent) el 2026-07-15, como aplicación de la cuarta auditoría metodológica del usuario.*
 
 *Convención del proyecto:* este archivo es paralelo al madre `expediente-fooday-vs-manas.md`, que solo el usuario modifica. Los agentes escriben en `*.propuesta-ia.md` y análogos.
