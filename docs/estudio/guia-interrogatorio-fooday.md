@@ -127,7 +127,7 @@ El abogado de Mañas sigue este **manual de destrucción**:
 > **"¿Sabe cuánto costó el bombín exactamente?"**
 
 🟡 **Tu respuesta:**
-> "David dijo aproximadamente 180€, pero **nunca aportó una factura a mi nombre** que justifique ese importe. La factura que tengo es posterior al conflicto, emitida como reacción."
+> "David aportó **su propia factura** emitida por él, pero **nunca aportó la factura de origen** del proveedor o instalador que justifique el coste real del bombín. La factura que me pasó es posterior al conflicto, emitida como reacción."
 
 ---
 
