@@ -207,10 +207,53 @@ En: `/repos/fooday-intelligence-core/docs/strategy/conflicto-facturacion-alquile
 
 ### Pendiente operativo inmediato
 
-- [ ] Revisar el documento paralelo `docs/demanda/expediente-fooday-vs-manas.propuesta-ia.md` que el agente generó
+- [ ] Revisar el documento paralelo `docs/demanda/expediente-fooday-vs-manas.propuesta-ia.md` (actualmente en **v6**) que el agente generó
 - [ ] Incorporar secciones útiles al madre `docs/demanda/expediente-fooday-vs-manas.md` (decisión humana)
 - [ ] Finalizar la auditoría retroactiva de IVA 2018-2025 (crítico para demanda del 15/07)
 - [ ] Verificar cuantificación de los 11 semanas de privación de uso (días exactos inicio/fin)
+
+### 2026-07-15 — Whatsapp.docx subido al cuaderno
+
+**Fuentes del cuaderno NotebookLM (9 totales tras la subida):**
+
+1. `CONT. LLOG. LOCAL SAZOR - MAÑAS 01.12.2018.pdf` — contrato matriz
+2. `SUB. CONT. MAÑAS - LOPEZ 01.12.2018.pdf` — subcontrato
+3. `Lau.pdf` — Ley 29/1994 de Arrendamientos Urbanos
+4. `Email a enviar a la Gestoria` — notificación compensación a la gestoría
+5. `Texto` — estrategia procesal
+6. `Whatsapp.docx` (NUEVO) — conversaciones de WhatsApp del 16/04/2026
+7. `codigocivil.pdf` — Código Civil
+8. `ma%C3%B1as.pdf` — email David 03/07/2026 18:32
+9. `ma%C3%B1as2.pdf` — email David 04/07/2026 19:52
+
+**Datos clave del Whatsapp.docx:**
+
+- **16/04/2026 09:26 — Fecha del descubrimiento del cambio del bombín** (era [DND]; ahora [HECHO])
+- 16/04/2026 09:32 — David Mañas: "Estaba estropeado" (primera justificación del cambio)
+- 16/04/2026 10:21 — David López: "Cuando nos veamos me la das sin prisa, gracias!"
+- 16/04/2026 10:21 — David López: "al final la he pedido copia al notario" (solución alternativa)
+- 16/04/2026 10:22 — David Mañas (audio): "Si estás por aquí, te la doy"
+- 16/04/2026 10:24 — David López → Victor Mañas: "Victor, supongo que me has llamado por la llaves"
+- 16/04/2026 10:29 — Victor Mañas: "Jo también"
+
+**Victor Mañas confirmado como hermano de David Mañas** (mensaje del 16/04 donde David López le habla directamente). Resuelve la [⚠️ CONTRADICCIÓN MCP] previa.
+
+**Dos versiones del motivo del cambio atribuibles a David:**
+- 16/04 (avería técnica): "Estaba estropeado"
+- 03/07 (impulso personal): "Por prisas y nervios" (en email ma%C3%B1as.pdf)
+- Separación: **78 días**
+
+### Versiones del expediente paralelo
+
+| Versión | Commit | Núcleo |
+|---|---|---|
+| v1 | (anterior) | Tono combativo |
+| v2 | `33859fb` | Adopción perito documental; eliminación probabilidades |
+| v3 | `b2336eb` | Objeto del procedimiento al inicio; conducta procesal cronológica |
+| v4 | `d26c9fa` | Estructura argumental independiente de Clàusula 7ª vs 10ª |
+| v5 | `6b6fc79` | Filosofía del procedimiento + refinamientos |
+| v6 | `a2cda91` | Incorporación Whatsapp.docx |
+| PDF v5 | `772d6a9` | Exportación PDF (8 páginas) |
 
 ---
 
@@ -222,6 +265,11 @@ En: `/repos/fooday-intelligence-core/docs/strategy/conflicto-facturacion-alquile
 | f2c174f | v0.1.0-semana1 | Prompts y scripts base |
 | fa2a515 | v1.0.0 | Sistema completo |
 | 176d753 | - | Add NotebookLM MCP setup docs |
-| latest | - | Add Windows/Warp/Pi setup documentation |
+| 772d6a9 | - | Add Windows/Warp/Pi setup documentation + PDF expediente v5 |
+| 6b6fc79 | v5 | expediente paralelo v5 (filosofía + refinamientos) |
+| b2336eb | v3 | expediente paralelo v3 (objeto del procedimiento) |
+| d26c9fa | v4 | expediente paralelo v4 (estructura Clàusula 7ª vs 10ª) |
+| a2cda91 | v6 | expediente paralelo v6 (incorporación Whatsapp.docx) |
+| latest | - | Versión actual de trabajo |
 
 ---
