@@ -40,38 +40,49 @@ Sistema multi-agente para análisis jurídico con debate adversarial y citación
 ## Requisitos
 
 - Node.js 18+
-- Acceso a NotebookLM (via MCP server en desktop)
 - Python 3.10+ (opcional, para análisis)
+- Acceso a NotebookLM (via MCP server)
 
 ## Instalación
 
 ```bash
 # Clonar repositorio
-git clone <repo-url>
-cd sistema-agentes-juridicos
+git clone https://github.com/davidlopezg/demandadavidmanas.git
+cd demandadavidmanas
 
 # Instalar dependencias
 npm install
 ```
 
-## Configuración
+## Setup Rapido (Windows + Warp)
 
-### 1. Configurar NotebookLM MCP
+Ver [docs/setup/WINDOWS-SETUP.md](docs/setup/WINDOWS-SETUP.md) para instrucciones completas.
 
-En tu desktop (con Chrome instalado):
+Resumen:
 
 ```bash
-# Instalar notebooklm-mcp
-npm install -g notebooklm-mcp
+# 1. Instalar Pi
+curl -fsSL https://pi.dev/install.sh | sh
 
-# Autenticarse (solo primera vez)
-notebooklm-mcp setup_auth
+# 2. Instalar extensiones
+pi install npm:@capyup/pi-warp
+pi install npm:pi-mcp-extension
 
-# Arrancar servidor HTTP
-notebooklm-mcp --transport http --port 3000 --host 0.0.0.0
+# 3. Configurar MCP
+# Copiar .pi/mcp.json.example a ~/.pi/agent/mcp.json
+
+# 4. Autenticar NotebookLM
+npx notebooklm-mcp@latest setup_auth
+
+# 5. Iniciar Pi
+pi
 ```
 
-Ver [docs/setup-notebooklm.md](docs/setup-notebooklm.md) para instrucciones detalladas.
+## Cuaderno NotebookLM
+
+**URL:** https://notebooklm.google.com/notebook/4510cc3a-c1c4-4140-a8ec-f80f184618ef
+
+Ver [docs/setup/NOTEBOOKLM-REFERENCE.md](docs/setup/NOTEBOOKLM-REFERENCE.md)
 
 ### 2. Variables de entorno
 

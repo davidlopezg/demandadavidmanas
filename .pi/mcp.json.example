@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "toolPrefix": "nl",
+    "requestTimeoutMs": 60000
+  },
+  "mcpServers": {
+    "notebooklm": {
+      "command": "npx",
+      "args": ["-y", "notebooklm-mcp@latest"],
+      "transport": "stdio",
+      "lifecycle": "eager"
+    }
+  }
+}

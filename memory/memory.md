@@ -1,6 +1,6 @@
 # Memory — Sistema Agentes Jurídicos
 
-**Última actualización:** 2026-07-14
+**Última actualización:** 2026-07-15
 
 ---
 
@@ -10,7 +10,7 @@
 Sistema de 5 agentes especializados para análisis jurídico con debate adversarial y citación obligatoria.
 
 ### Repo
-`/data/data/com.termux/files/home/repos/demandadavidmanas`
+`https://github.com/davidlopezg/demandadavidmanas`
 
 ### Estado
 ✅ MVP completo — v1.0.0
@@ -22,9 +22,15 @@ Sistema de 5 agentes especializados para análisis jurídico con debate adversar
 ├── templates/        # Templates de documentos
 ├── tests/           # Verificación de citaciones
 ├── docs/            # Setup y guía de uso
+│   └── setup/       # Guías de instalación
+│       ├── WINDOWS-SETUP.md
+│       ├── NOTEBOOKLM-MCP-SETUP.md
+│       └── NOTEBOOKLM-REFERENCE.md
 ├── openspec/        # SDD completo
 ├── cases/           # Casos procesados
-└── memory/          # Esta memoria
+├── memory/          # Esta memoria
+└── .pi/            # Config Pi y MCP
+    └── mcp.json.example
 ```
 
 ---
@@ -40,9 +46,58 @@ Sistema de 5 agentes especializados para análisis jurídico con debate adversar
 - **Python**: Análisis (pendiente de instalar deps)
 
 ### Integración NotebookLM
-- MCP server corre en desktop con Chrome
-- Pi se conecta via HTTP
-- Requiere: `notebooklm-mcp --transport http --port 3000`
+- **Windows**: notebooklm-mcp via pi-mcp-extension
+- **Pi local (Termux)**: No disponible (Android incompatible con Chrome automation)
+- **Flujo**: Pi en Windows consulta NotebookLM MCP directamente
+
+---
+
+## Setup Windows (Actual - 2026-07-15)
+
+### Prerrequisitos Windows
+- Git for Windows
+- Node.js 20+
+- Warp terminal
+- Google Chrome
+
+### Extensiones Pi Instaladas
+- `npm:@capyup/pi-warp` - Integración Warp
+- `npm:pi-mcp-extension` - Cliente MCP
+
+### Config MCP
+Archivo: `~/.pi/agent/mcp.json`
+
+```json
+{
+  "settings": {
+    "toolPrefix": "nl",
+    "requestTimeoutMs": 60000
+  },
+  "mcpServers": {
+    "notebooklm": {
+      "command": "npx",
+      "args": ["-y", "notebooklm-mcp@latest"],
+      "transport": "stdio",
+      "lifecycle": "eager"
+    }
+  }
+}
+```
+
+### Comandos Útiles
+- `/mcp` - Ver estado servers
+- `/mcp:start notebooklm` - Iniciar server
+- `nl_notebooklm_add_notebook` - Añadir cuaderno
+
+---
+
+## Cuaderno NotebookLM
+
+**URL:** https://notebooklm.google.com/notebook/4510cc3a-c1c4-4140-a8ec-f80f184618ef
+
+**ID:** 4510cc3a-c1c4-4140-a8ec-f80f184618ef
+
+**Setup docs:** `docs/setup/NOTEBOOKLM-REFERENCE.md`
 
 ---
 
@@ -86,8 +141,7 @@ En: `/repos/fooday-intelligence-core/docs/strategy/conflicto-facturacion-alquile
 ## Pendiente
 
 - [ ] Instalar Python deps para auditor
-- [ ] Configurar NotebookLM MCP en desktop
-- [ ] Test con caso FOODAY
+- [ ] Test con caso FOODAY en Windows
 - [ ] Activar Engram para memoria persistente
 
 ---
@@ -99,4 +153,7 @@ En: `/repos/fooday-intelligence-core/docs/strategy/conflicto-facturacion-alquile
 | ebfce64 | - | Estructura inicial |
 | f2c174f | v0.1.0-semana1 | Prompts y scripts base |
 | fa2a515 | v1.0.0 | Sistema completo |
+| 176d753 | - | Add NotebookLM MCP setup docs |
+| latest | - | Add Windows/Warp/Pi setup documentation |
 
+---
