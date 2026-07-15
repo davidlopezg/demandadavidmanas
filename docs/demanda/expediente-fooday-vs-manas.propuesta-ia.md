@@ -195,7 +195,7 @@ Tabla de contenidos con anclajes clicables para navegación rápida por el docum
 - **[12.1 Catálogo de pruebas documentales disponibles en el cuaderno](#121-catalogo-de-pruebas-documentales-disponibles-en-el-cuaderno)**
 - **[12.2 Pruebas a obtener o indexar por la actora](#122-pruebas-a-obtener-o-indexar-por-la-actora)**
 - **[14.1 Correo de 3 de julio de 2026, 18:32 — "TEMA CLAUS / CANVI DE PANY"](#141-correo-de-3-de-julio-de-2026-1832-tema-claus-canvi-de-pany)**
-- **[14.2 Factura del bombín (180 €, sin factura documentada)](#142-factura-del-bombin-180-sin-factura-documentada)**
+- **[14.2 Factura del bombín (180 € — repercutida por el demandado sin justificante de proveedor)](#142-factura-del-bombin-180-sin-factura-documentada)**
 - **[14.3 Facturas de electricidad Serie F](#143-facturas-de-electricidad-serie-f)**
 - **[14.4 Argumentación procesal recomendada (texto neutro)](#144-argumentacion-procesal-recomendada-texto-neutro)**
 - **[15.1 Alegación: "Los pagos de renta se retrasaron"](#151-alegacion-los-pagos-de-renta-se-retrasaron)**
@@ -335,7 +335,7 @@ Tabla de contenidos con anclajes clicables para navegación rápida por el docum
 - **[12.1 Catálogo de pruebas documentales disponibles en el cuaderno](#121-catalogo-de-pruebas-documentales-disponibles-en-el-cuaderno)**
 - **[12.2 Pruebas a obtener o indexar por la actora](#122-pruebas-a-obtener-o-indexar-por-la-actora)**
 - **[14.1 Correo de 3 de julio de 2026, 18:32 — "TEMA CLAUS / CANVI DE PANY"](#141-correo-de-3-de-julio-de-2026-1832-tema-claus-canvi-de-pany)**
-- **[14.2 Factura del bombín (180 €, sin factura documentada)](#142-factura-del-bombin-180-sin-factura-documentada)**
+- **[14.2 Factura del bombín (180 € — repercutida por el demandado sin justificante de proveedor)](#142-factura-del-bombin-180-sin-factura-documentada)**
 - **[14.3 Facturas de electricidad Serie F](#143-facturas-de-electricidad-serie-f)**
 - **[14.4 Argumentación procesal recomendada (texto neutro)](#144-argumentacion-procesal-recomendada-texto-neutro)**
 - **[15.1 Alegación: "Los pagos de renta se retrasaron"](#151-alegacion-los-pagos-de-renta-se-retrasaron)**
@@ -1283,12 +1283,25 @@ IVA correcto:     82,64 € × 21 % = 17,36 €
 | Sobre la responsabilidad del pago | *"el canvi de pany, també et correspon pagar-lo."* |
 | Sobre el horario | *"Demà divendres, 03.07.2026, a les 08.00hrs i a les 18.00 hrs hi haurà algú a l'oficina, si vols passar."* |
 
-## 14.2 Factura del bombín (180 €, sin factura documentada) {#142-factura-del-bombin-180-sin-factura-documentada}
+## 14.2 Factura del bombín (180 € — repercutida por el demandado sin justificante de proveedor) {#142-factura-del-bombin-180--repercutida-por-el-demandado-sin-justificante-de-proveedor}
 
 | Dato | Estado | Fuente |
 |---|---|---|
 | Importe mencionado por David | 180 € (aproximadamente) | `[NL-8]` |
-| Documento contable emitido al efecto | No consta en el cuaderno; [DND] número de factura | — |
+| Documento contable emitido al efecto | El demandado emitió una factura a nombre de FOODAY repercutiendo el coste. No consta en el cuaderno; [DND] número de factura. | — |
+| Justificante del proveedor (factura de compra o instalación) | **No aportado.** El demandado no ha remitido la factura o tique del proveedor que acredite la efectiva realización del trabajo, su importe y la fecha de ejecución, pese a haber sido requerida documentación de soporte. | — |
+
+### Análisis
+
+> El demandado repercutió a FOODAY el coste del cambio del bombín mediante una **factura emitida por él mismo**. Sin embargo, no aportó la factura o justificante del proveedor que acreditara la efectiva realización del trabajo, su importe y la fecha de ejecución, pese a haber sido requerida documentación de soporte.
+>
+> En consecuencia, FOODAY no ha podido verificar si el gasto repercutido se corresponde con un coste realmente soportado por el demandado ni si el importe repercutido es correcto.
+
+### Posible alegación de la demandada y respuesta procesal
+
+| Alegación previsible | Respuesta |
+|---|---|
+| *"No tenía obligación de enviar la factura del proveedor."* | *"No afirmo que existiera obligación general de remitirla. Lo que sostengo es que, al pretender repercutir un gasto cuya procedencia e importe son discutidos, la ausencia de documentación justificativa impide verificar su realidad y cuantía."* |
 
 ## 14.3 Facturas de electricidad Serie F {#143-facturas-de-electricidad-serie-f}
 
@@ -1547,9 +1560,16 @@ la actora y limitar la entrega a horario de oficina.
 
 SEXTO.- Repercusión del coste del bombín.
 El Sr. Mañas reclamó en el mismo correo el pago del 50% del coste del
-bombín (aproximadamente 180 €, sin factura documentada al efecto) y
-manifestó posteriormente: "Si vols, el dilluns liquides el que em deus i
-deixem córrer el sots-arrendament (en aquest cas no et cobraré el bombí)".
+bombín (aproximadamente 180 €), repercutiendo dicho importe mediante una
+factura emitida por él mismo, y manifestó posteriormente: "Si vols, el
+dilluns liquides el que em deus i deixem córrer el sots-arrendament (en
+aquest cas no et cobraré el bombí)".
+
+El demandado no ha aportado, pese a haber sido requerido, la factura o
+justificante del proveedor que acredite la efectiva realización del
+trabajo, su importe y la fecha de ejecución, por lo que FOODAY no ha
+podido verificar si el gasto repercutido se corresponde con un coste
+realmente soportado ni si el importe es correcto.
 
 SÉPTIMO.- Conducta procesal de la actora antes de demandar.
 La actora, con carácter previo a la interposición de la presente demanda,
