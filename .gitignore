@@ -50,3 +50,5 @@ coverage/
 tmp/
 temp/
 *.tmp
+# Local Pi runtime state
+.atl/
