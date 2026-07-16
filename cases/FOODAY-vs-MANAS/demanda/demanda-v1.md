@@ -104,7 +104,7 @@ A las 09:32 horas del mismo día 16 de abril, el demandado manifestó por WhatsA
 
 Setenta y ocho días después del descubrimiento, el demandado remitió un correo electrónico a la actora en el que, en lo que aquí interesa, manifestó textualmente:
 
-> *«Les claus es van haver de canviar, perquè el pany estava trencat. Al tractar-se d'una reparació d'urgència (que no una obra) vaig fer-ho al moment. Les presses i els nervis van fer que no t'avises al momento.»*
+> *«Les claus es van haver de canviar, perquè el pany estava trencat. Al tractar-se d'una reparació d'urgència (que no una obra) vaig fer-ho al moment. Les presses i els nervis van fer que no t'avises al moment.»*
 
 Y añadió:
 
@@ -190,7 +190,7 @@ De la documentación disponible, consta que:
 - El día **16 de abril de 2026** la actora descubrió el cambio del bombín y no pudo acceder al local con su llave (**Documento nº 6**).
 - A fecha **3 de julio de 2026**, el demandado reconocía por escrito estar en posesión de la copia de la llave destinada a la actora (*«tenia la teva còpia»*, **Documento nº 7**), lo que implica que, a dicha fecha, la actora aún no había recuperado la disposición autónoma del acceso al local.
 
-Durante ese periodo, la actora careció de llave propia para acceder autónomamente al local, viendo condicionado su acceso a la presencia del demandado o de terceros en el despacho, en el horario que éste determinara. El demandado manifestó que el local *«molts dies, ha estat obert de 8 hores a 13.30, de dilluns a divendres, i moltes tardes de 18 a 20hrs»* (**Documento nº 7**).
+Durante ese periodo, la actora careció de llave propia para acceder autónomamente al local, viendo condicionado su acceso a la presencia del demandado o de terceros en el despacho, en el horario que éste determinara. El demandado manifestó que *«el local, molts dies, ha estat obert de 8 hores a 13.30, de dilluns a divendres, i moltes tardes de 18 a 20hrs»* (**Documento nº 7**).
 
 La fecha exacta de inicio del periodo (día del cambio del bombín) y la fecha exacta de recuperación de la llave por la actora se determinarán en el procedimiento, correspondiendo su acreditación al demandado, que fue quien ejecutó materialmente el cambio y quien retuvo la copia de la llave.
 
@@ -305,7 +305,7 @@ En el presente caso, la privación de la disposición de llave propia para el ac
 ```
 Renta anual base (2018):              150,00 €/mes × 12 = 1.800,00 €
 Renta diaria prorrateada:             1.800,00 € / 365 días = 4,9315 €/día
-Periodo mínimo acreditado:            77 días (16/04/2026 – 03/07/2026)
+Periodo mínimo acreditado:            78 días (16/04/2026 – 03/07/2026)
 ```
 
 La determinación definitiva del periodo y de la renta actualizada (con IPC acumulado 2018–2026) se interesa que se realice en fase de ejecución de sentencia, conforme al Art. 219 LEC, al no ser posible su determinación exacta en el momento de interposición de la demanda por depender de extremos cuyo conocimiento obra en poder del demandado (fecha exacta del cambio, fecha de entrega efectiva de la llave) y de la aplicación del IPC.
@@ -364,7 +364,7 @@ Que, previos los trámites legales oportunos, **ESTIME** la presente demanda y, 
 
 **5.** **CONDENE** al demandado a abonar a la actora, en concepto de indemnización por la privación del goce pacífico del local, la cantidad que resulte de aplicar la renta diaria prorrateada (actualizada con el IPC correspondiente) al periodo de privación que se acredite en el procedimiento, **cifrándose el importe definitivo en ejecución de sentencia** conforme al Art. 219 LEC.
 
-A título orientativo, la actora estima provisionalmente dicha indemnización en **379,73 €** (4,9315 €/día × 77 días mínimos acreditados, sin actualización IPC), sin perjuicio de la determinación definitiva que resulte en ejecución.
+A título orientativo, la actora estima provisionalmente dicha indemnización en **384,66 €** (4,9315 €/día × 78 días mínimos acreditados, sin actualización IPC), sin perjuicio de la determinación definitiva que resulte en ejecución.
 
 **6.** **CONDENE** al demandado a abonar a la actora el importe del IVA indebidamente repercutido en las facturas de electricidad desde el inicio de la relación contractual en 2018, **cifrándose dicho importe en ejecución de sentencia** a la vista del resultado de la prueba pericial contable cuya práctica se interesa.
 
@@ -425,7 +425,7 @@ La designación del perito se realizará en el momento procesal oportuno.
 
 ## VI. OTROSÍ
 
-**OTROSÍ DIGO PRIMERO:** Que, siendo la cuantía de este procedimiento indeterminada en algunos de sus extremos, se fija provisionalmente en la suma de los conceptos estimados (379,73 € de indemnización provisional más el importe del IVA pendiente de pericial), sin perjuicio de su determinación definitiva en ejecución de sentencia.
+**OTROSÍ DIGO PRIMERO:** Que, siendo la cuantía de este procedimiento indeterminada en algunos de sus extremos, se fija provisionalmente en la suma de los conceptos estimados (384,66 € de indemnización provisional más el importe del IVA pendiente de pericial), sin perjuicio de su determinación definitiva en ejecución de sentencia.
 
 **OTROSÍ DIGO SEGUNDO:** Que se interesa la práctica de la prueba documental, interrogatorio, testifical y pericial relacionadas en el apartado V de esta demanda.
 
@@ -461,7 +461,7 @@ PUNTOS FUERTES:
 
 PUNTOS DÉBILES DE LA DEMANDA:
 
-1. 77 días de privación con fecha de inicio no acreditada.
+1. 78 días de privación con fecha de inicio no acreditada.
    Cómo reforzarla: interrogar a David sobre la fecha exacta del
    cambio. Su respuesta determinará el periodo.
    Fuente necesaria: declaración del demandado.
