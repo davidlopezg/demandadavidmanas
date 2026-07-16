@@ -4,7 +4,7 @@ Sistema multi-agente para análisis jurídico con debate adversarial y citación
 
 ## Características
 
-- **5 agentes especializados**: Instructor, Abogado Actora, Abogado David (Destructor), Judge, Auditor
+- **7 agentes especializados**: Instructor, Abogado Actora, Abogado David (Destructor), Abogado Contraparte (Contraargumentador), Test de Estrés, Judge, Auditor
 - **Debate adversarial**: Antes de emitir una demanda, el sistema intenta destruirla
 - **Citación obligatoria**: Toda afirmación requiere fuente documental
 - **Regla de oro**: "Nunca afirmes un hecho que no puedas demostrar"
@@ -33,7 +33,9 @@ Sistema multi-agente para análisis jurídico con debate adversarial y citación
 |--------|-----|------------------|
 | **Instructor** | Constructor del expediente | `expediente-maestro.md` |
 | **Abogado Actora** | Atacante | `demanda-v1.md` |
-| **Abogado David** | Destructor | `informe-destruccion.md` |
+| **Abogado David** | Destructor (macro) | `informe-destruccion.md` |
+| **Abogado Contraparte** | Contraargumentador estratégico | `contraargumentos-previsibles.md` |
+| **Test de Estrés** | Destructor párrafo a párrafo | `test-estres-demanda.md` |
 | **Judge** | Evaluador neutral | `veredicto-simulado.md` |
 | **Auditor** | Verificador numérico | `auditoria-numerica.md` |
 
@@ -128,6 +130,8 @@ node tests/citation-verification.js cases/FOODAY-vs-MANAS
 │   ├── instructor.md
 │   ├── abogado-actora.md
 │   ├── abogado-david.md
+│   ├── abogado-contraparte.md
+│   ├── abogado-test-estres.md
 │   ├── juez.md
 │   ├── auditor.md
 │   └── debate-round2.md
@@ -135,6 +139,8 @@ node tests/citation-verification.js cases/FOODAY-vs-MANAS
 │   ├── expediente-maestro.md
 │   ├── demanda.md
 │   ├── informe-destruccion.md
+│   ├── contraargumentos-previsibles.md
+│   ├── test-estres-demanda.md
 │   └── auditoria.md
 ├── docs/
 │   ├── setup-notebooklm.md  # Guía de instalación
@@ -160,6 +166,8 @@ FASE 1: Instructor → Expediente maestro
 FASE 2: (Paralelo)
   ├── Abogado Actora → Demanda v1
   ├── Abogado David → Informe de destrucción
+  ├── Abogado Contraparte → Contraargumentos previsibles
+  ├── Test de Estrés → Test de estrés párrafo a párrafo
   └── Auditor → Verificación numérica
          ↓
 FASE 3: Debate Adversarial (Ronda 2)
@@ -168,6 +176,20 @@ FASE 4: Judge → Veredicto simulado
          ↓
 FASE 5: Outputs finales
 ```
+
+## Agentes de Defensa: Diferencias
+
+| Agente | Enfoque | Input | Output | Pregunta guía |
+|--------|---------|-------|--------|---------------|
+| **Abogado David** (Destructor) | Macro — ataca la demanda completa como un todo | Demanda v1 | `informe-destruccion.md` | "¿Cómo destruyo esta demanda?" |
+| **Abogado Contraparte** (Contraargumentador) | Estratégico — genera todos los contraargumentos previsibles y separa los imprescindibles | Expediente completo | `contraargumentos-previsibles.md` | "¿Qué argumentos opondrá la defensa?" |
+| **Test de Estrés** | Micro — analiza cada párrafo individualmente | Demanda (texto) | `test-estres-demanda.md` | "¿Qué diría Mañas para destruir ESTE párrafo?" |
+
+### Cuándo usar cada uno
+
+1. **Abogado David** — Cuando ya tenés una demanda redactada y querés una destrucción global para iterar.
+2. **Abogado Contraparte** — Cuando querés anticipar TODOS los contraargumentos antes de redactar, para saber qué blindar.
+3. **Test de Estrés** — Cuando tenés el borrador de la demanda y querés afinar cada párrafo, sabiendo exactamente qué riesgo tiene cada afirmación.
 
 ## Reglas de Citación
 
